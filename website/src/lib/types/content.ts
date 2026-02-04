@@ -181,3 +181,78 @@ export interface ContentValidationResult {
   errors: string[];
   warnings: string[];
 }
+
+// Pricing Structure Types
+
+export interface LaborRate {
+  hourlyRate: number;
+  description: string;
+  minimumCharge: number;
+  notes: string;
+}
+
+export interface TripCharge {
+  fee: number;
+  description: string;
+  coverage: string;
+  notes: string;
+}
+
+export interface RetainerPlan {
+  monthlyFee: number;
+  name: string;
+  description: string;
+  includes: string[];
+  idealFor: string;
+  notes: string;
+}
+
+export interface ServicePackageItem {
+  price?: number;
+  priceRange?: string;
+  hourlyRate?: number;
+  description: string;
+  includes?: string[];
+  notes: string;
+}
+
+export interface PricingPolicy {
+  philosophy: string;
+  principles: string[];
+  paymentTerms: {
+    residential: string;
+    business: string;
+    warranty: string;
+  };
+}
+
+export interface PricingStructure {
+  pricing: {
+    laborRates: {
+      residential: LaborRate;
+      business: LaborRate;
+    };
+    tripCharges: {
+      localHomeVisit: TripCharge;
+      extendedHomeVisit: TripCharge;
+      businessVisit: TripCharge;
+    };
+    retainerPlans: {
+      managedCareBasic: RetainerPlan;
+      managedCarePlus: RetainerPlan;
+      managedCarePremium: RetainerPlan;
+    };
+    servicePackages: {
+      computerRepair: {
+        [key: string]: ServicePackageItem;
+      };
+      businessIT: {
+        [key: string]: ServicePackageItem;
+      };
+      communityEducation: {
+        [key: string]: ServicePackageItem;
+      };
+    };
+    pricingPolicy: PricingPolicy;
+  };
+}

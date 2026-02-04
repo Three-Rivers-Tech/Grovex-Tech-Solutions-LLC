@@ -6,13 +6,13 @@
     "shortDescription": "Computer repair and tech support right in your home",
     "icon": "FaTools",
     "features": [
-      "Computer Repair & Virus Removal ($75-200)",
+      "Computer Repair & Virus Removal ($75-150)",
       "Wi-Fi Optimization & Setup ($100)",
       "Smartphone Setup & Training for Seniors ($60/hour)",
       "Data Backup & Recovery ($100-300)",
       "Software Installation & Updates",
       "Email Setup & Management",
-      "On-Site Visits (Turtle Creek & surrounding areas)",
+      "On-Site Visits (Free in Turtle Creek, $25 surrounding areas - waived with service)",
       "Printer Troubleshooting",
       "Patient, step-by-step instruction"
     ],
@@ -45,7 +45,7 @@
     "features": [
       "Starter Website Package ($500) - WordPress, SEO, domain registration",
       "Small Office IT Setup ($300-600) - routers, security, printer integration",
-      "Managed Care Plan ($75/month) - maintenance and help desk support",
+      "Managed Care Plans (from $75/month) - Basic, Plus, and Premium tiers available",
       "Local Business SEO & Google My Business",
       "Email Setup & Management",
       "Point of Sale Systems Integration",
@@ -138,8 +138,8 @@
       "Ongoing support available"
     ],
     "pricing": {
-      "startingPrice": "$400",
-      "priceRange": "$400-$800"
+      "startingPrice": "$500",
+      "priceRange": "$500-$2500"
     },
     "cta": {
       "text": "Get Your Website",
