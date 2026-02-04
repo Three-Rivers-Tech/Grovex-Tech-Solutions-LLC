@@ -1,0 +1,194 @@
+{
+  "pricing": {
+    "laborRates": {
+      "residential": {
+        "hourlyRate": 60,
+        "description": "Standard hourly rate for residential repairs and help desk support",
+        "minimumCharge": 60,
+        "notes": "First hour minimum, then billed in 15-minute increments"
+      },
+      "business": {
+        "hourlyRate": 75,
+        "description": "Standard hourly rate for business IT support",
+        "minimumCharge": 75,
+        "notes": "First hour minimum, then billed in 15-minute increments"
+      }
+    },
+    "tripCharges": {
+      "localHomeVisit": {
+        "fee": 0,
+        "description": "Free home visit for Turtle Creek residents",
+        "coverage": "Turtle Creek, PA 15145",
+        "notes": "On-site fee waived for seniors 65+"
+      },
+      "extendedHomeVisit": {
+        "fee": 25,
+        "description": "Home visit fee for surrounding Mon Valley areas",
+        "coverage": "Monroeville, Wilmerding, East Pittsburgh, Braddock, and surrounding Mon Valley communities within 15 miles",
+        "notes": "Waived with 1+ hours of service"
+      },
+      "businessVisit": {
+        "fee": 0,
+        "description": "Free on-site visit for business assessments",
+        "coverage": "All Mon Valley area businesses",
+        "notes": "Initial consultation and assessment always free"
+      }
+    },
+    "retainerPlans": {
+      "managedCareBasic": {
+        "monthlyFee": 75,
+        "name": "Managed Care Plan - Basic",
+        "description": "Essential monthly IT support for small businesses",
+        "includes": [
+          "Monthly system maintenance and updates",
+          "Priority help desk support (response within 4 hours)",
+          "Remote support via phone, email, or remote desktop",
+          "Basic cybersecurity monitoring",
+          "Monthly system health report",
+          "10% discount on additional services"
+        ],
+        "idealFor": "Small businesses with 1-5 computers",
+        "notes": "No long-term contract required, cancel anytime with 30 days notice"
+      },
+      "managedCarePlus": {
+        "monthlyFee": 150,
+        "name": "Managed Care Plan - Plus",
+        "description": "Comprehensive IT support with enhanced response times",
+        "includes": [
+          "All Basic Plan features",
+          "Priority help desk support (response within 2 hours)",
+          "Two on-site visits per month (additional visits at discounted rate)",
+          "Advanced cybersecurity protection",
+          "Quarterly technology planning consultation",
+          "Network monitoring and optimization",
+          "15% discount on additional services"
+        ],
+        "idealFor": "Growing businesses with 5-15 computers",
+        "notes": "No long-term contract required, cancel anytime with 30 days notice"
+      },
+      "managedCarePremium": {
+        "monthlyFee": 300,
+        "name": "Managed Care Plan - Premium",
+        "description": "Full-service IT partnership for established businesses",
+        "includes": [
+          "All Plus Plan features",
+          "Priority help desk support (response within 1 hour)",
+          "Unlimited on-site visits",
+          "24/7 emergency support hotline",
+          "Comprehensive cybersecurity suite",
+          "Monthly technology strategy sessions",
+          "Proactive system optimization",
+          "Dedicated account manager",
+          "20% discount on additional services"
+        ],
+        "idealFor": "Established businesses with 15+ computers or complex IT needs",
+        "notes": "No long-term contract required, cancel anytime with 30 days notice"
+      }
+    },
+    "servicePackages": {
+      "computerRepair": {
+        "diagnostics": {
+          "price": 0,
+          "description": "Free diagnostics and assessment",
+          "notes": "We assess the problem at no charge, then provide upfront pricing before any work begins"
+        },
+        "virusRemoval": {
+          "priceRange": "75-150",
+          "description": "Virus and malware removal with system optimization",
+          "notes": "Price depends on severity of infection and time required"
+        },
+        "hardwareRepair": {
+          "priceRange": "100-300",
+          "description": "Hardware repair or replacement (parts + labor)",
+          "notes": "Final price depends on specific parts needed. We always get approval before ordering parts."
+        },
+        "dataRecovery": {
+          "priceRange": "100-300",
+          "description": "Data backup and recovery services",
+          "notes": "Simple backups start at $100, complex recovery up to $300"
+        },
+        "wifiSetup": {
+          "price": 100,
+          "description": "Wi-Fi network setup and optimization",
+          "notes": "Includes router configuration, security setup, and device connection"
+        },
+        "seniorTraining": {
+          "hourlyRate": 60,
+          "description": "Patient, step-by-step technology training for seniors",
+          "notes": "Smartphone setup, email, internet basics, social media - we go at your pace"
+        }
+      },
+      "businessIT": {
+        "starterWebsite": {
+          "price": 500,
+          "description": "Starter Website Package",
+          "includes": [
+            "WordPress setup and configuration",
+            "Mobile-responsive design",
+            "Basic SEO optimization",
+            "Domain registration assistance",
+            "Google My Business setup",
+            "Contact form integration",
+            "3 months of support and updates"
+          ],
+          "notes": "Perfect for small local businesses getting started online"
+        },
+        "smallOfficeSetup": {
+          "priceRange": "300-600",
+          "description": "Small Office IT Setup",
+          "includes": [
+            "Router and network configuration",
+            "Basic cybersecurity setup",
+            "Printer and device integration",
+            "Email setup for team",
+            "File sharing configuration",
+            "Training for staff"
+          ],
+          "notes": "One-time setup fee for small business office infrastructure"
+        },
+        "customWebsite": {
+          "priceRange": "800-2500",
+          "description": "Custom Website Development",
+          "includes": [
+            "Custom design tailored to your brand",
+            "CMS for easy content updates",
+            "E-commerce integration (if needed)",
+            "Advanced SEO optimization",
+            "Training and documentation",
+            "6 months of support"
+          ],
+          "notes": "For businesses needing more advanced features or custom functionality"
+        }
+      },
+      "communityEducation": {
+        "workshops": {
+          "price": 0,
+          "description": "Free community workshops and training",
+          "includes": [
+            "Basic computer skills classes",
+            "Online safety and security training",
+            "Smartphone and tablet training",
+            "Digital marketing for small businesses",
+            "Social media for local shops"
+          ],
+          "notes": "All workshops are free for community members"
+        }
+      }
+    },
+    "pricingPolicy": {
+      "philosophy": "Small-town prices, big-city know-how",
+      "principles": [
+        "Transparent, upfront pricing with no hidden fees",
+        "Free consultation and honest assessment before any work",
+        "We tell you what you actually need, not what makes us the most money",
+        "No surprise charges - you approve the price before we start",
+        "Senior discounts and community-friendly rates"
+      ],
+      "paymentTerms": {
+        "residential": "Payment due upon completion. Cash, check, or major credit cards accepted.",
+        "business": "Net 15 terms for established business clients. Monthly retainer clients billed automatically.",
+        "warranty": "All work comes with a 30-day satisfaction guarantee"
+      }
+    }
+  }
+}
