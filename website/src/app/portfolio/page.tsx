@@ -69,7 +69,7 @@ export default function PortfolioPage() {
             {/* Google Business Profile Embed */}
             <div className="relative w-full min-h-[500px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.244791234567!2d-79.8083123!3d40.4028456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f227494f77d9%3A0x3e332f01cd4d60d5!2sThree%20Rivers%20Tech%2C%20LLC!5e0!3m2!1sen!2sus!4v1738167890!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8!2d-79.8277519!3d40.4055905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834e94965dadc77%3A0x3e335ff03dcd60d5!2sThree%20Rivers%20Tech%2C%20LLC!5e0!3m2!1sen!2sus!4v1738700000000!5m2!1sen!2sus"
                 width="100%"
                 height="500"
                 className="border-0 rounded-lg"
@@ -80,7 +80,7 @@ export default function PortfolioPage() {
               />
               <div className="mt-4 text-center">
                 <a
-                  href="https://search.google.com/local/writereview?placeid=ChIJd9zaZUnpNIgR1WDNPfBfMz4"
+                  href="https://www.google.com/maps/place/Three+Rivers+Tech,+LLC/@40.4055864,-79.825177,17z/data=!4m8!3m7!1s0x8834e94965dadc77:0x3e335ff03dcd60d5!8m2!3d40.4055864!4d-79.825177!9m1!1b1!16s%2Fg%2F11zj87c3dj"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-lg text-primary hover:text-primary-hover transition-all font-medium"
