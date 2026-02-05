@@ -43,7 +43,7 @@ export default function SaasProducts() {
           <p className="text-foreground-secondary mb-6">
             Practical software solutions for local businesses. We help you choose and implement the right tools to manage customers, inventory, and day-to-day operations without breaking your budget.
           </p>
-          <div className="bg-white border border-border p-6 rounded-lg shadow-sm">
+          <div className="bg-background border border-border p-6 rounded-lg shadow-sm">
             <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>

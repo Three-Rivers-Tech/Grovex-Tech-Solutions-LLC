@@ -18,7 +18,7 @@ export default function ComputerRepair() {
 
           <div className="mb-6">
             <h3 className="text-xl font-semibold mb-3 text-primary">Our Home Tech Services</h3>
-            <div className="bg-white border border-border p-6 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-6 rounded-lg shadow-sm">
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>

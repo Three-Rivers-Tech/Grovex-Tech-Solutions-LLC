@@ -11,64 +11,64 @@ export default function CommunityEducation() {
           </p>
           
           <div className="space-y-4 mb-6">
-            <div className="bg-white border border-border p-6 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-primary mb-2">Free Workshops & Training</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Basic Computer Skills:</strong> Perfect for beginners and seniors</span>
+                  <span className="text-foreground"><strong>Basic Computer Skills:</strong> Perfect for beginners and seniors</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Online Safety Training:</strong> Protect yourself from scams and viruses</span>
+                  <span className="text-foreground"><strong>Online Safety Training:</strong> Protect yourself from scams and viruses</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Smartphone & Tablet Training:</strong> Get comfortable with your devices</span>
+                  <span className="text-foreground"><strong>Smartphone & Tablet Training:</strong> Get comfortable with your devices</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Email & Internet Basics:</strong> Stay connected with family and friends</span>
+                  <span className="text-foreground"><strong>Email & Internet Basics:</strong> Stay connected with family and friends</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border border-border p-6 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-primary mb-2">Small Business Digital Marketing</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Social Media for Local Shops:</strong> Facebook, Instagram basics</span>
+                  <span className="text-foreground"><strong>Social Media for Local Shops:</strong> Facebook, Instagram basics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Google My Business:</strong> Get found by local customers</span>
+                  <span className="text-foreground"><strong>Google My Business:</strong> Get found by local customers</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Simple Website Management:</strong> Update your own content</span>
+                  <span className="text-foreground"><strong>Simple Website Management:</strong> Update your own content</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Online Reviews & Reputation:</strong> Build trust with customers</span>
+                  <span className="text-foreground"><strong>Online Reviews & Reputation:</strong> Build trust with customers</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white border border-border p-6 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-6 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-primary mb-2">Learning Resources</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Downloadable Guides:</strong> Step-by-step tutorials you can keep</span>
+                  <span className="text-foreground"><strong>Downloadable Guides:</strong> Step-by-step tutorials you can keep</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Video Tutorials:</strong> Watch and learn at your own pace</span>
+                  <span className="text-foreground"><strong>Video Tutorials:</strong> Watch and learn at your own pace</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="bg-white/90 dark:bg-white/80 text-foreground px-2 py-0.5 rounded shadow-sm inline-block"><strong>Tech Tips Newsletter:</strong> Monthly helpful hints and updates</span>
+                  <span className="text-foreground"><strong>Tech Tips Newsletter:</strong> Monthly helpful hints and updates</span>
                 </li>
               </ul>
             </div>

@@ -40,16 +40,16 @@ export default function SoftwareDevelopment() {
           </p>
           <div className="space-y-4">
             {/* Website Pricing Tiers */}
-            <div className="bg-white border border-border p-5 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-5 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-primary mb-3">Website Packages</h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-start border-b border-border pb-3">
                   <div>
-                    <p className="font-medium">Starter Website - $499</p>
+                    <p className="font-medium text-foreground">Starter Website - $499</p>
                     <p className="text-sm text-foreground-secondary">Up to 5 pages, mobile-responsive, basic SEO, 3 months support</p>
                   </div>
                 </div>
-                <div className="flex justify-between items-start border-b border-border pb-3 bg-primary/5 -mx-5 px-5 py-2">
+                <div className="flex justify-between items-start border-b border-border pb-3 bg-primary/10 -mx-5 px-5 py-2">
                   <div>
                     <p className="font-medium text-primary">Professional Website - $899 <span className="text-xs bg-primary text-white px-2 py-0.5 rounded ml-2">Popular</span></p>
                     <p className="text-sm text-foreground-secondary">Up to 10 pages, custom design, CMS, advanced SEO, analytics, 6 months support</p>
@@ -57,7 +57,7 @@ export default function SoftwareDevelopment() {
                 </div>
                 <div className="flex justify-between items-start">
                   <div>
-                    <p className="font-medium">Enterprise Website - $1,299+</p>
+                    <p className="font-medium text-foreground">Enterprise Website - $1,299+</p>
                     <p className="text-sm text-foreground-secondary">Unlimited pages, e-commerce, booking system, custom features, 12 months support</p>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function SoftwareDevelopment() {
             </div>
 
             {/* Features */}
-            <div className="bg-white border border-border p-5 rounded-lg shadow-sm">
+            <div className="bg-background border border-border p-5 rounded-lg shadow-sm">
               <h3 className="text-lg font-semibold text-primary mb-3">All Websites Include</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
