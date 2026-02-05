@@ -1,6 +1,6 @@
 // Pricing data loader for Three Rivers Tech
 import pricingData from '@/content/pricing.json';
-import type { PricingStructure } from '@/lib/types/content';
+import type { PricingStructure, ServicePackageItem } from '@/lib/types/content';
 
 /**
  * Get the complete pricing structure
@@ -41,8 +41,8 @@ export function getAllRetainerPlans() {
  * Get service package pricing
  */
 export function getServicePackage(category: 'computerRepair' | 'businessIT' | 'communityEducation', service: string): ServicePackageItem | undefined {
-  const categoryPackages = pricingData.pricing.servicePackages[category];
-  return categoryPackages?.[service] as ServicePackageItem | undefined;
+  const categoryPackages = pricingData.pricing.servicePackages[category] as Record<string, ServicePackageItem>;
+  return categoryPackages?.[service];
 }
 
 /**
