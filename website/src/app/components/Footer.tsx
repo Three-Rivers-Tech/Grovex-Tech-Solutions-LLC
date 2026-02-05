@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { LogoImage } from "@/components/OptimizedImage";
-import { TwitterIcon, FacebookIcon, LinkedInIcon } from "./SocialIcons";
+import { TwitterIcon, LinkedInIcon } from "./SocialIcons";
 
 export default function Footer() {
   return (
@@ -28,31 +28,26 @@ export default function Footer() {
             <nav>
               <ul className="flex justify-center md:justify-start space-x-4">
                 <li>
-                  <Link
-                    href="#"
+                  <a
+                    href="https://x.com/3RiversTech"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-2"
-                    aria-label="Follow us on Twitter"
+                    aria-label="Follow us on X (Twitter)"
                   >
                     <TwitterIcon className="h-6 w-6" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    href="#"
-                    className="group text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-2"
-                    aria-label="Follow us on Facebook"
-                  >
-                    <FacebookIcon className="h-6 w-6" />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
+                  <a
+                    href="https://www.linkedin.com/company/three-rivers-tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-2"
                     aria-label="Follow us on LinkedIn"
                   >
                     <LinkedInIcon className="h-6 w-6" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>
