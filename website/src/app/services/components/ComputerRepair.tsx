@@ -67,7 +67,7 @@ export default function ComputerRepair() {
           {/* Senior Tech Safety Net */}
           <div className="bg-primary/10 border border-primary/30 p-5 rounded-lg mb-6 shadow-sm">
             <h4 className="font-semibold text-primary mb-2">Senior Tech Safety Net - $29/month</h4>
-            <p className="text-sm text-foreground mb-3">
+            <p className="text-sm text-white mb-3">
               Peace of mind for seniors and their families. Unlimited phone support, scam protection training, monthly device checkups, and patient assistance whenever you need it.
             </p>
             <p className="text-xs text-foreground-secondary italic">
