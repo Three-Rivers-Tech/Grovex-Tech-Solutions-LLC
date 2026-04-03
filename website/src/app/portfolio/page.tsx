@@ -95,7 +95,7 @@ export default function PortfolioPage() {
           </div>
 
           {/* GitHub Showcase Card */}
-          <GitHubStats username="Three-Rivers-Tech" />
+          <GitHubStats username="Grovex-Tech-Solutions" />
         </div>
 
         {/* Call to Action */}
