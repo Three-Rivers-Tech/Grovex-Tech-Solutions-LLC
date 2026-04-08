@@ -240,7 +240,11 @@ Create a `.env.local` file for local development:
 ```env
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 NEXT_PUBLIC_GA_ID=your-ga-id
+NEXT_PUBLIC_ADS_ID=AW-XXXXXXXXXX
 ```
+
+- `NEXT_PUBLIC_GA_ID` — Google Analytics 4 measurement ID
+- `NEXT_PUBLIC_ADS_ID` — Google Ads conversion ID (shares the same `gtag.js` loader as GA4; optional unless Ads tracking needed)
 
 ## 📊 Analytics & Monitoring
 
