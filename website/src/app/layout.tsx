@@ -14,6 +14,8 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const siteUrl = 'https://grovextech.com';
 // Public analytics identifier (only load GA when defined)
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
+// Google Ads conversion tracking ID (only load when defined)
+const adsId = process.env.NEXT_PUBLIC_ADS_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -69,12 +71,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />        
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
       </head>
        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
-         {gaId && (
+         {(gaId || adsId) && (
            <>
              <Script
-               src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+               src={`https://www.googletagmanager.com/gtag/js?id=${gaId ?? adsId}`}
                strategy="afterInteractive"
              />
              <Script id="gtag-init" strategy="afterInteractive">
@@ -82,7 +85,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                  window.dataLayer = window.dataLayer || [];
                  function gtag(){dataLayer.push(arguments);}
                  gtag('js', new Date());
-                 gtag('config', '${gaId}');
+                 ${[gaId, adsId].filter(Boolean).map(id => `gtag('config', '${id}');`).join('\n                 ')}
                `}
              </Script>
            </>
