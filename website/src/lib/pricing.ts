@@ -1,4 +1,4 @@
-// Pricing data loader for Grovex Tech & Solutions LLC
+// Pricing data loader for GroveX
 import pricingData from '@/content/pricing.json';
 import type { 
   PricingStructure, 

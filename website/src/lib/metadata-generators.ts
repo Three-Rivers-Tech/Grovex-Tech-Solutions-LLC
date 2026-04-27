@@ -2,30 +2,10 @@ import { Metadata } from "next";
 import { generatePageMetadata, siteConfig } from "./metadata";
 import { getPageSeoConfig, getServiceSeoConfig } from "./seo-config";
 
-/**
- * Metadata generation utilities for consistent SEO across the site
- * 
- * This module provides functions to generate Next.js metadata objects
- * for different page types with proper SEO optimization, local search
- * enhancement, and structured data integration.
- * 
- * Key features:
- * - Static page metadata generation
- * - Service-specific metadata with enhanced descriptions
- * - Portfolio and blog page metadata
- * - Local SEO optimization for Turtle Creek, PA
- * - Error page metadata
- * - Search page metadata
- */
-
-/**
- * Generate metadata for static pages using predefined configurations
- */
 export function generateStaticPageMetadata(pageKey: string): Metadata {
   const config = getPageSeoConfig(pageKey);
-  
+
   if (!config) {
-    // Fallback metadata if configuration not found
     return generatePageMetadata({
       title: `Page Not Found - ${siteConfig.name}`,
       description: siteConfig.description,
@@ -36,13 +16,10 @@ export function generateStaticPageMetadata(pageKey: string): Metadata {
   return generatePageMetadata(config);
 }
 
-/**
- * Generate enhanced metadata for service pages with additional service-specific data
- */
 export function generateServicePageMetadata(serviceKey: string): Metadata {
   const seoConfig = getPageSeoConfig(serviceKey);
   const serviceConfig = getServiceSeoConfig(serviceKey);
-  
+
   if (!seoConfig) {
     return generatePageMetadata({
       title: `Service - ${siteConfig.name}`,
@@ -51,13 +28,11 @@ export function generateServicePageMetadata(serviceKey: string): Metadata {
     });
   }
 
-  // Enhance description with service features if available
   let enhancedDescription = seoConfig.description;
   if (serviceConfig?.features) {
     enhancedDescription += ` Services include: ${serviceConfig.features.slice(0, 3).join(', ')}.`;
   }
 
-  // Add technology keywords if available
   const enhancedKeywords = [
     ...(seoConfig.keywords || []),
     ...(serviceConfig?.technologies || [])
@@ -70,9 +45,6 @@ export function generateServicePageMetadata(serviceKey: string): Metadata {
   });
 }
 
-/**
- * Generate metadata for dynamic portfolio pages
- */
 export function generatePortfolioPageMetadata(
   projectId?: string,
   projectData?: {
@@ -85,27 +57,22 @@ export function generatePortfolioPageMetadata(
   }
 ): Metadata {
   if (!projectId || !projectData) {
-    // Portfolio listing page
     return generateStaticPageMetadata("portfolio");
   }
 
-  // Individual project page
   const { title, description, image, technologies = [], client, year } = projectData;
-  
+
   return generatePageMetadata({
     title: `${title} - Portfolio Case Study`,
-    description: `${description} ${client ? `Project for ${client}` : ''} ${year ? `(${year})` : ''} - A successful project by Grovex Tech & Solutions LLC.`,
+    description: `${description} ${client ? `Project for ${client}` : ""} ${year ? `(${year})` : ""} - A GroveX project showing how stronger systems support sustainable growth.`,
     keywords: ["portfolio", "case study", "project", ...technologies],
     canonical: `${siteConfig.url}/portfolio/${projectId}`,
-    ogTitle: `${title} - Grovex Tech & Solutions LLC Portfolio`,
+    ogTitle: `${title} - GroveX Portfolio`,
     ogDescription: description,
     ogImage: image || siteConfig.ogImage
   });
 }
 
-/**
- * Generate metadata for blog/article pages
- */
 export function generateBlogPageMetadata(
   slug?: string,
   articleData?: {
@@ -118,20 +85,18 @@ export function generateBlogPageMetadata(
   }
 ): Metadata {
   if (!slug || !articleData) {
-    // Blog listing page
     return generatePageMetadata({
-      title: "Tech Insights & Blog - Grovex Tech & Solutions LLC",
-      description: "Stay updated with the latest technology insights, tutorials, and industry news from Grovex Tech & Solutions LLC. Expert perspectives on software development, IT consulting, and more.",
-      keywords: ["tech blog", "technology insights", "software development", "IT consulting", "tutorials"],
+      title: "Tech Insights & Blog - GroveX",
+      description: "Stay updated with GroveX insights on websites, software, IT infrastructure, sustainable growth, and practical systems for local businesses.",
+      keywords: ["tech blog", "growth systems", "software development", "IT consulting", "tutorials"],
       canonical: `${siteConfig.url}/blog`,
-      ogTitle: "Tech Blog - Grovex Tech & Solutions LLC",
-      ogDescription: "Expert insights and tutorials on technology, software development, and business solutions."
+      ogTitle: "Tech Blog - GroveX",
+      ogDescription: "Expert insights on technology, operations, and sustainable growth for local business."
     });
   }
 
-  // Individual article page
   const { title, description, publishDate, author, tags, image } = articleData;
-  
+
   const metadata = generatePageMetadata({
     title,
     description,
@@ -141,7 +106,6 @@ export function generateBlogPageMetadata(
     ogImage: image || siteConfig.ogImage
   });
 
-  // Add article-specific Open Graph properties
   if (metadata.openGraph) {
     metadata.openGraph = {
       ...metadata.openGraph,
@@ -155,38 +119,32 @@ export function generateBlogPageMetadata(
   return metadata;
 }
 
-/**
- * Generate metadata for search results pages
- */
 export function generateSearchPageMetadata(query?: string): Metadata {
-  const title = query 
-    ? `Search Results for "${query}" - Grovex Tech & Solutions LLC`
-    : "Search - Grovex Tech & Solutions LLC";
-    
+  const title = query
+    ? `Search Results for "${query}" - GroveX`
+    : "Search - GroveX";
+
   const description = query
-    ? `Search results for "${query}" on Grovex Tech & Solutions LLC. Find information about our technology services, portfolio, and expertise.`
-    : "Search Grovex Tech & Solutions LLC for information about our technology services, portfolio, case studies, and expertise.";
+    ? `Search results for "${query}" on GroveX. Find information about our services, portfolio, and growth systems.`
+    : "Search GroveX for information about our services, portfolio, case studies, and growth systems.";
 
   return generatePageMetadata({
     title,
     description,
-    keywords: ["search", "find", "technology services"],
-    canonical: `${siteConfig.url}/search${query ? `?q=${encodeURIComponent(query)}` : ''}`,
-    noIndex: true // Don't index search pages
+    keywords: ["search", "find", "growth systems"],
+    canonical: `${siteConfig.url}/search${query ? `?q=${encodeURIComponent(query)}` : ""}`,
+    noIndex: true
   });
 }
 
-/**
- * Generate metadata for error pages (404, 500, etc.)
- */
 export function generateErrorPageMetadata(errorCode: number): Metadata {
   const errorMessages = {
     404: {
       title: "Page Not Found (404)",
-      description: "The page you're looking for doesn't exist. Explore our technology services, portfolio, or contact us for assistance."
+      description: "The page you're looking for doesn't exist. Explore our services, portfolio, or contact us for assistance."
     },
     500: {
-      title: "Server Error (500)", 
+      title: "Server Error (500)",
       description: "We're experiencing technical difficulties. Please try again later or contact our support team."
     }
   };
@@ -197,65 +155,51 @@ export function generateErrorPageMetadata(errorCode: number): Metadata {
   };
 
   return generatePageMetadata({
-    title: `${errorInfo.title} - Grovex Tech & Solutions LLC`,
+    title: `${errorInfo.title} - GroveX`,
     description: errorInfo.description,
     keywords: ["error", "help", "support"],
-    noIndex: true, // Don't index error pages
+    noIndex: true,
     noFollow: true
   });
 }
 
-/**
- * Generate metadata with breadcrumb context
- */
 export function generateMetadataWithBreadcrumbs(
   baseMetadata: Metadata,
   breadcrumbs: Array<{ name: string; url: string }>
 ): Metadata {
-  // Add breadcrumb information to the description if it's helpful for SEO
-  const breadcrumbText = breadcrumbs.map(b => b.name).join(' > ');
-  
+  const breadcrumbText = breadcrumbs.map((b) => b.name).join(" > ");
+
   return {
     ...baseMetadata,
     description: baseMetadata.description + ` Navigation: ${breadcrumbText}`,
   };
 }
 
-/** 
- * Generate location-specific metadata for local SEO
- */
 export function generateLocalSeoMetadata(baseMetadata: Metadata): Metadata {
   const localKeywords = [
-    "computer repair Turtle Creek PA 15145",
-    "IT services Turtle Creek Pennsylvania", 
-    "web design Monroeville area",
-    "tech support Mon Valley PA",
-    "computer help Turtle Creek residents",
+    "local business growth Turtle Creek",
+    "website design Turtle Creek Pennsylvania",
+    "Mon Valley growth systems",
     "small business IT Turtle Creek PA",
-    "home computer repair visits PA",
-    "tech support seniors Turtle Creek",
+    "Google Ads landing pages Pennsylvania",
     "website development Mon Valley",
     "Turtle Creek business technology",
-    "Monroeville area computer services",
+    "Monroeville area business systems",
     "Wilmerding PA tech support",
-    "Pittsburgh suburb IT help",
-    "Western Pennsylvania computer repair",
-    "local tech services 15145",
+    "Pittsburgh suburb web design",
+    "Western Pennsylvania software development",
+    "local growth studio 15145",
     "affordable IT support Turtle Creek"
   ];
 
-  // Enhanced description with local focus and contact guidance
-  const enhancedDescription = `${baseMetadata.description} Serving Turtle Creek PA 15145, Monroeville, Wilmerding, and Mon Valley communities. Reach out through our contact form for local tech support.`;
+  const enhancedDescription = `${baseMetadata.description} Serving Turtle Creek PA 15145, Monroeville, Wilmerding, and Mon Valley communities with websites, business systems, and practical support.`;
 
-  // Combine existing keywords with local keywords
-  const existingKeywords = typeof baseMetadata.keywords === 'string' ? baseMetadata.keywords : '';
+  const existingKeywords = typeof baseMetadata.keywords === "string" ? baseMetadata.keywords : "";
   const combinedKeywords = existingKeywords ? `${existingKeywords}, ${localKeywords.join(', ')}` : localKeywords.join(', ');
 
-  // Filter out undefined values from baseMetadata.other
-  const filteredOther = baseMetadata.other ?
-    Object.fromEntries(
-      Object.entries(baseMetadata.other).filter(([, value]) => value !== undefined)
-    ) : {};
+  const filteredOther = baseMetadata.other
+    ? Object.fromEntries(Object.entries(baseMetadata.other).filter(([, value]) => value !== undefined))
+    : {};
 
   return {
     ...baseMetadata,
@@ -266,7 +210,7 @@ export function generateLocalSeoMetadata(baseMetadata: Metadata): Metadata {
       "geo.region": "PA-US",
       "geo.placename": "Turtle Creek",
       "geo.position": "40.4058;-79.8214",
-      "ICBM": "40.4058, -79.8214"
+      ICBM: "40.4058, -79.8214"
     }
   };
 }

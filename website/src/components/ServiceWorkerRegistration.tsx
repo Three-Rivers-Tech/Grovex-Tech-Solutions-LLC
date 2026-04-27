@@ -147,7 +147,7 @@ export default function ServiceWorkerRegistration() {
                 Notification.permission === "granted"
               ) {
                 try {
-                  new Notification("Grovex Tech & Solutions LLC", {
+                  new Notification("GroveX", {
                     body:
                       "New version ready. Refresh to load updated site content.",
                     icon: "/company_logo.png",

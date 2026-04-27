@@ -4,32 +4,30 @@ import { getSocialImage } from "./social-images";
 
 // Base configuration for consistent metadata across the site
 export const siteConfig = {
-  name: "Grovex Tech & Solutions LLC",
-  description: "Your hometown tech partner in Turtle Creek, PA. Big-city know-how at small-town prices. Expert computer repair, website design, and IT support for families and small businesses.",
+  name: "GroveX",
+  description: "A growth-minded local studio in Turtle Creek, PA blending websites, IT support, software, and practical business systems for neighbors and small businesses.",
   url: "https://grovextech.com",
   ogImage: "/company_logo.png",
-  creator: "Grovex Tech & Solutions LLC",
+  creator: "GroveX Tech & Solutions LLC",
   keywords: [
-    "computer repair Turtle Creek PA",
-    "IT services Turtle Creek 15145",
-    "web design Monroeville area",
-    "tech support Mon Valley",
-    "computer help Turtle Creek",
-    "small business IT Turtle Creek",
-    "website design Western Pennsylvania",
-    "home computer repair PA",
-    "tech support for seniors",
-    "local computer services",
+    "local business growth Turtle Creek",
+    "website design Mon Valley",
+    "software development Pennsylvania",
+    "IT support Mon Valley",
+    "small business systems Turtle Creek",
+    "growth infrastructure",
+    "Google Ads landing pages",
+    "creative storefront technology",
     "Turtle Creek technology",
-    "Mon Valley IT support"
+    "Mon Valley business support"
   ]
 };
 
 // Business information for consistent contact details
 export const businessInfo = {
-  name: "Grovex Tech & Solutions LLC",
+  name: "GroveX Tech & Solutions LLC",
   description:
-    "Grovex Tech & Solutions LLC delivers trustworthy technology help for Turtle Creek and nearby communities, covering computer repair, modern web experiences, and dependable IT support with a hometown focus.",
+    "GroveX delivers trustworthy technology and growth infrastructure for Turtle Creek and nearby communities, covering websites, digital systems, modern web experiences, and dependable IT support with a local focus.",
   phone: "(412) 206-9453",
   email: "info@grovextech.com",
   address: {
@@ -45,8 +43,8 @@ export const businessInfo = {
     sunday: "Sunday: 11:00 AM - 5:00 PM"
   },
   socialMedia: {
-    linkedin: "https://www.linkedin.com/company/grovextech",
-    twitter: "https://twitter.com/grovextech",
+    linkedin: "https://www.linkedin.com/company/grovextech/",
+    twitter: "https://x.com/grovextech",
     facebook: "https://www.facebook.com/grovextech"
   },
   serviceAreas: [
@@ -152,7 +150,7 @@ export function generateServiceMetadata(
   
   return generatePageMetadata({
     title: `${serviceName} Services - Professional ${serviceName} Solutions`,
-    description: `Expert ${serviceName.toLowerCase()} services from Grovex Tech & Solutions LLC. ${serviceDescription}`,
+    description: `Expert ${serviceName.toLowerCase()} services from GroveX. ${serviceDescription}`,
     keywords: [serviceName.toLowerCase(), ...serviceKeywords],
     canonical: `${siteConfig.url}/services/${serviceKey}`,
     ogTitle: `${serviceName} Services - ${siteConfig.name}`,
@@ -206,10 +204,10 @@ export function generatePortfolioMetadata(
   
   return generatePageMetadata({
     title: `${projectName} - Portfolio Case Study`,
-    description: `${projectDescription} - A successful project by Grovex Tech & Solutions LLC showcasing our expertise.`,
+    description: `${projectDescription} - A GroveX project showing how stronger systems support sustainable growth.`,
     keywords: ["portfolio", "case study", "project", ...technologies],
     canonical: `${siteConfig.url}/portfolio/${projectKey}`,
-    ogTitle: `${projectName} - Grovex Tech & Solutions LLC Portfolio`,
+    ogTitle: `${projectName} - GroveX Portfolio`,
     ogDescription: projectDescription,
     ogImage: portfolioImage
   });

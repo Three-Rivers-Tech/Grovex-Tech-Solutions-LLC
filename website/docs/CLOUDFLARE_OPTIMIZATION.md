@@ -1,6 +1,6 @@
 # Cloudflare Pages Optimization Guide
 
-Comprehensive guide for optimizing the Grovex Tech & Solutions LLC website for Cloudflare Pages deployment, including static export requirements, edge computing, and performance optimization.
+Comprehensive guide for optimizing the GroveX website for Cloudflare Pages deployment, including static export requirements, edge computing, and performance optimization.
 
 ## 🎯 Quick Reference
 

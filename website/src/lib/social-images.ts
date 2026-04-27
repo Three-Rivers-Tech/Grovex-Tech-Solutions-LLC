@@ -68,7 +68,7 @@ export function generateImageAltText(
   key: string,
   title?: string
 ): string {
-  const siteName = "Grovex Tech & Solutions LLC";
+  const siteName = "GroveX";
   
   switch (type) {
     case "page":
@@ -124,7 +124,7 @@ export function createOptimizedSocialMetadata(
         }
       ],
       type: "website" as const,
-      siteName: "Grovex Tech & Solutions LLC",
+      siteName: "GroveX",
       locale: "en_US"
     },
     twitter: {

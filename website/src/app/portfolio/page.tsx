@@ -1,15 +1,14 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import GitHubStats from "@/app/portfolio/GitHubStats";
 
 export const metadata: Metadata = {
-  title: 'Our Work & Credentials | Grovex Tech & Solutions LLC',
-  description: 'See what our clients say about us and explore our open-source projects. Real reviews and proven technical work from Grovex Tech & Solutions LLC.',
+  title: "Our Work & Credentials | GroveX",
+  description: "See GroveX work across websites, software, IT support, and practical systems built to help local businesses grow with more confidence.",
   openGraph: {
-    title: 'Our Work & Credentials | Grovex Tech & Solutions LLC',
-    description: 'Client reviews and GitHub projects from Grovex Tech & Solutions LLC',
-    type: 'website',
-    url: 'https://grovextech.com/portfolio',
+    title: "Our Work & Credentials | GroveX",
+    description: "Client work, reviews, and technical proof from GroveX",
+    type: "website",
+    url: "https://grovextech.com/portfolio",
   },
 };
 
@@ -22,106 +21,90 @@ export default function PortfolioPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Grovex Tech & Solutions LLC, LLC",
-            "description": "Computer repair, website development, and IT services in Turtle Creek, PA",
-            "url": "https://grovextech.com/portfolio",
-            "address": {
+            name: "GroveX Tech & Solutions LLC",
+            description: "Websites, software, IT support, and growth systems in Turtle Creek, PA",
+            url: "https://grovextech.com/portfolio",
+            address: {
               "@type": "PostalAddress",
-              "streetAddress": "124 Grant Street",
-              "addressLocality": "Turtle Creek",
-              "addressRegion": "PA",
-              "postalCode": "15145",
-              "addressCountry": "US"
+              streetAddress: "124 Grant Street",
+              addressLocality: "Turtle Creek",
+              addressRegion: "PA",
+              postalCode: "15145",
+              addressCountry: "US"
             }
           })
         }}
       />
 
       <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20 max-w-7xl">
-        {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20 text-secondary text-sm font-medium mb-6 animate-fade-in">
             <span className="w-2 h-2 bg-secondary rounded-full mr-2 animate-pulse"></span>
             Building Trust Through Results
           </div>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
-            Our Work & Credentials
-          </h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">Our Work & Credentials</h1>
           <p className="text-base sm:text-lg md:text-xl text-foreground-secondary max-w-3xl mx-auto leading-relaxed px-2">
-            Real client feedback and proven technical expertise from Grovex Tech & Solutions LLC
+            Proof that GroveX can help local businesses look sharper, operate better, and build from a stronger foundation.
           </p>
         </div>
 
-        {/* Two-column grid: Reviews & GitHub */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {/* Google Reviews Card */}
           <div className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 sm:p-8">
             <div className="mb-6">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-foreground">
-                What Our Clients Say
-              </h2>
-              <p className="text-foreground-secondary">
-                Real reviews from real customers in our community
-              </p>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-foreground">What Our Clients Say</h2>
+              <p className="text-foreground-secondary">Real reviews from real customers in our community</p>
             </div>
 
-            {/* Google Business Profile Embed */}
             <div className="relative w-full min-h-[500px]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.8!2d-79.8277519!3d40.4055905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834e94965dadc77%3A0x3e335ff03dcd60d5!2sThree%20Rivers%20Tech%2C%20LLC!5e0!3m2!1sen!2sus!4v1738700000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps?q=124+Grant+Street,+Turtle+Creek,+PA+15145&output=embed"
                 width="100%"
                 height="500"
                 className="border-0 rounded-lg"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Grovex Tech & Solutions LLC, LLC - Google Maps"
+                title="GroveX location on Google Maps"
               />
               <div className="mt-4 text-center">
                 <a
-                  href="https://www.google.com/maps/place/Three+Rivers+Tech,+LLC/@40.4055864,-79.825177,17z/data=!4m8!3m7!1s0x8834e94965dadc77:0x3e335ff03dcd60d5!8m2!3d40.4055864!4d-79.825177!9m1!1b1!16s%2Fg%2F11zj87c3dj"
+                  href="https://www.google.com/maps/search/?api=1&query=124+Grant+Street,+Turtle+Creek,+PA+15145"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 hover:bg-primary/20 rounded-lg text-primary hover:text-primary-hover transition-all font-medium"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z" />
                   </svg>
-                  Leave us a review on Google
+                  View the location on Google Maps
                 </a>
               </div>
             </div>
           </div>
 
-          {/* GitHub Showcase Card */}
-          <GitHubStats username="Grovex-Tech-Solutions" />
+          <div className="bg-white dark:bg-gray-800 shadow-lg rounded-2xl p-6 sm:p-8 flex items-center justify-center">
+            <div className="max-w-md text-center">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3 text-foreground">Technical Capability</h2>
+              <p className="text-foreground-secondary leading-relaxed">
+                GroveX combines web, systems, support, and software experience to help local businesses clean up operations and build a stronger base for growth.
+              </p>
+            </div>
+          </div>
         </div>
 
-        {/* Call to Action */}
         <div className="text-center bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl p-8 sm:p-12">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-foreground">
-            Ready to Work Together?
-          </h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-foreground">Ready to Build the Next Layer?</h2>
           <p className="text-foreground-secondary mb-8 text-lg max-w-2xl mx-auto">
-            Join our growing list of satisfied clients. Whether you need computer repair, website development, or IT support, we&apos;re here to help.
+            Whether you need a better website, cleaner systems, or a more dependable support setup, GroveX is here to help you build the foundation first.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-semibold rounded-xl hover:bg-primary-hover hover:shadow-glow transform hover:scale-105 transition-all duration-300 min-h-[48px]"
-            >
-              <span>Get Started Today</span>
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+            <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-semibold rounded-xl hover:bg-primary-hover hover:shadow-glow transform hover:scale-105 transition-all duration-300 min-h-[48px]">
+              <span>Start the Conversation</span>
             </Link>
 
-            <Link
-              href="/services"
-              className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-primary text-primary font-semibold rounded-xl hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 min-h-[48px]"
-            >
+            <Link href="/services" className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-primary text-primary font-semibold rounded-xl hover:bg-primary hover:text-white transform hover:scale-105 transition-all duration-300 min-h-[48px]">
               <span>View Our Services</span>
             </Link>
           </div>

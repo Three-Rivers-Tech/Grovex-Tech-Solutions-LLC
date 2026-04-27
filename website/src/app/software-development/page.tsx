@@ -9,8 +9,8 @@ export default function SoftwareDevelopmentSkillsPage() {
   return (
     <>
       <StructuredData data={generatePageStructuredData("service", {
-        name: "Software Development Skills - Grovex Tech & Solutions LLC",
-        description: "Comprehensive software development expertise including web applications, mobile apps, API development, and cutting-edge technology solutions.",
+        name: "Software Development Skills - GroveX",
+        description: "Comprehensive software development expertise including web applications, mobile apps, API development, and cutting-edge growth systems.",
         url: "https://grovextech.com/software-development",
         breadcrumbs: [
           { name: "Home", url: "https://grovextech.com" },

@@ -22,7 +22,7 @@
 
 # Professional Standards Validation Summary
 
-All professional standards for the Grovex Tech & Solutions LLC website are fully met:
+All professional standards for the GroveX website are fully met:
 
 - Content is specific, relevant, and business-appropriate throughout.
 - Contact information and service names are consistent and accurate.

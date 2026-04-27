@@ -1,8 +1,8 @@
-# Grovex Tech & Solutions LLC Icon System
+# GroveX Icon System
 
 ## Overview
 
-This document explains the icon system implemented for the Grovex Tech & Solutions LLC website. We've replaced emoji-based icons with professional SVG icons using the React Icons library and custom SVG components.
+This document explains the icon system implemented for the GroveX website. We've replaced emoji-based icons with professional SVG icons using the React Icons library and custom SVG components.
 
 ## Benefits of the New Icon System
 

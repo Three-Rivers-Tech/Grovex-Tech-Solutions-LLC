@@ -18,7 +18,7 @@ export default function OpenGraphPreview({
   description,
   image,
   url,
-  siteName = "Grovex Tech & Solutions LLC",
+  siteName = "GroveX",
   platform = "facebook",
   className = ""
 }: OpenGraphPreviewProps) {

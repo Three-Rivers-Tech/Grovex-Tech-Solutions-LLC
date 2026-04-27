@@ -9,8 +9,8 @@ export interface SitemapPage {
 
 export const SITE_CONFIG = {
   baseUrl: 'https://grovextech.com',
-  name: 'Grovex Tech & Solutions LLC',
-  description: 'Comprehensive Technology Solutions for Your Business',
+  name: 'GroveX',
+  description: 'Sustainable Growth Systems for Local Business',
 }
 
 // Static pages configuration with SEO priorities

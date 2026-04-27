@@ -1,5 +1,5 @@
 /**
- * Brand Voice Guidelines for Grovex Tech & Solutions LLC
+ * Brand Voice Guidelines for GroveX
  * 
  * This file defines the consistent brand voice and messaging standards
  * to be applied across all website components and content.
@@ -171,7 +171,7 @@ export class BrandVoiceHelper {
 export const messagingTemplates = {
   valueProposition: {
     primary: "Professional IT services that drive business efficiency, security, and growth",
-    secondary: "Expert technology solutions tailored to your business needs"
+    secondary: "Expert growth systems tailored to your business needs"
   },
   
   serviceIntros: {

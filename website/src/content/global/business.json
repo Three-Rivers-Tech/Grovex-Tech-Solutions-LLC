@@ -1,6 +1,6 @@
 {
-  "name": "Grovex Tech & Solutions LLC",
-  "description": "Grovex Tech & Solutions LLC is a leading technology solutions provider delivering comprehensive IT services to businesses throughout the Pittsburgh metropolitan area. We specialize in enterprise software development, strategic IT infrastructure consulting, SaaS platform integration, and professional hardware support services. With extensive industry experience, our team combines deep technical expertise with practical business acumen to deliver solutions that drive operational efficiency and sustainable growth.",
+  "name": "GroveX Tech & Solutions LLC",
+  "description": "GroveX Tech & Solutions LLC is a community-rooted B2B growth studio serving Turtle Creek and the Mon Valley. We build practical websites, dependable IT systems, and custom software that help small businesses improve lead flow, strengthen operations, and grow with confidence.",
 
   "phone": "(412) 206-9453",
   "email": "info@grovextech.com",
@@ -49,8 +49,8 @@
     }
   ],
   "socialMedia": {
-    "linkedin": "https://www.linkedin.com/company/grovextech",
-    "twitter": "https://twitter.com/grovextech"
+    "linkedin": "https://www.linkedin.com/company/grovextech/",
+    "twitter": "https://x.com/grovextech"
   },
   "foundedYear": 2014,
   "employeeCount": "10-50",
@@ -68,14 +68,14 @@
     "Network Setup & Maintenance",
     "Technical Support"
   ],
-  "tagline": "Professional IT Services for Growing Businesses",
-  "mission": "To empower businesses with reliable, innovative technology solutions that solve complex operational challenges and drive measurable results. We are committed to delivering enterprise-grade solutions that enhance efficiency, security, and competitive advantage.",
+  "tagline": "Websites, systems, and growth foundations for small businesses",
+  "mission": "To help local businesses grow with practical websites, stronger systems, and dependable support that improve operations now and create a better foundation for future marketing and customer acquisition.",
   "values": [
-    "Customer-First Approach: Your success is our success",
-    "Technical Excellence: We use proven technologies and best practices",
-    "Clear Communication: No technical jargon, just plain English explanations",
-    "Reliable Support: We're here when you need us most",
-    "Local Commitment: Proud to serve the Pittsburgh community",
-    "Continuous Innovation: Always learning and improving our services"
+    "Business-first thinking: Build what improves outcomes, not just appearances",
+    "Technical excellence: Use proven tools and sound implementation",
+    "Clear communication: No jargon, just practical advice",
+    "Reliable support: Stay useful after the site launches",
+    "Local commitment: Help strong local businesses compete better",
+    "Sustainable growth: Fix the foundation before scaling spend"
   ]
 }

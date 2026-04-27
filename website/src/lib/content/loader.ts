@@ -346,26 +346,26 @@ function createFallbackPageContent(pageName: string): PageContent {
       backgroundType: 'solid',
     },
     seo: {
-      title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - Grovex Tech & Solutions LLC`,
-      description: 'Professional technology solutions for your business needs.',
-      keywords: ['technology', 'solutions', 'business'],
+      title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - GroveX`,
+      description: 'Practical growth systems for local business momentum.',
+      keywords: ['growth systems', 'websites', 'business infrastructure'],
       openGraph: {
-        title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - Grovex Tech & Solutions LLC`,
-        description: 'Professional technology solutions for your business needs.',
+        title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - GroveX`,
+        description: 'Practical growth systems for local business momentum.',
         images: [{
           url: '/images/og-default.jpg',
           width: 1200,
           height: 630,
-          alt: 'Grovex Tech & Solutions LLC',
+          alt: 'GroveX',
         }],
         type: 'website',
-        siteName: 'Grovex Tech & Solutions LLC',
+        siteName: 'GroveX',
         locale: 'en_US',
       },
       twitter: {
         card: 'summary_large_image',
-        title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - Grovex Tech & Solutions LLC`,
-        description: 'Professional technology solutions for your business needs.',
+        title: `${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - GroveX`,
+        description: 'Practical growth systems for local business momentum.',
         images: ['/company_logo.png'],
       },
     },
@@ -374,8 +374,8 @@ function createFallbackPageContent(pageName: string): PageContent {
 
 function createFallbackBusinessInfo(): BusinessInfo {
   return {
-    name: 'Grovex Tech & Solutions LLC',
-    description: 'Comprehensive technology solutions for your business',
+    name: 'GroveX',
+    description: 'Growth-minded websites, systems, and local business support',
     phone: '(412) 206-9453',
     email: 'info@grovextech.com',
     address: {
@@ -398,8 +398,8 @@ function createFallbackBusinessInfo(): BusinessInfo {
     specialties: ['Software Development', 'IT Consulting', 'SaaS Products', 'Computer Repair'],
     foundedYear: 2014,
     employeeCount: '2-10',
-    tagline: 'Technology Solutions That Work',
-    mission: 'To provide reliable technology solutions that help businesses succeed.',
+    tagline: 'Growth Infrastructure That Takes Root',
+    mission: 'To build reliable systems that help local businesses grow with confidence.',
     values: ['Quality', 'Reliability', 'Innovation', 'Customer Service'],
   };
 }
@@ -447,7 +447,7 @@ function createDefaultNavigation() {
 
 function createDefaultFooter() {
   return {
-    description: 'Grovex Tech & Solutions LLC provides comprehensive technology solutions.',
+    description: 'GroveX builds websites, systems, and practical growth infrastructure.',
     sections: [
       {
         title: 'Services',
@@ -459,17 +459,17 @@ function createDefaultFooter() {
         ],
       },
     ],
-    bottomText: '© 2024 Grovex Tech & Solutions LLC. All rights reserved.',
+    bottomText: '© 2024 GroveX. All rights reserved.',
     showSocialMedia: true,
   };
 }
 
 function createDefaultGlobalSEO() {
   return {
-    siteName: 'Grovex Tech & Solutions LLC',
-    defaultTitle: 'Grovex Tech & Solutions LLC - Comprehensive Technology Solutions',
-    defaultDescription: 'Professional technology solutions including software development, IT consulting, SaaS products, and computer repair services.',
-    defaultKeywords: ['technology', 'software development', 'IT consulting', 'SaaS', 'computer repair'],
+    siteName: 'GroveX',
+    defaultTitle: 'GroveX - Sustainable Growth Systems for Local Business',
+    defaultDescription: 'Websites, software development, IT support, and practical growth infrastructure for local businesses.',
+    defaultKeywords: ['growth systems', 'software development', 'IT consulting', 'web design', 'computer repair'],
     defaultImage: '/images/og-default.jpg',
   };
 }

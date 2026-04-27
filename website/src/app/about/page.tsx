@@ -29,8 +29,8 @@ export default function AboutPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            "name": "About Grovex Tech & Solutions LLC - Local Tech Partners",
-            "description": "Learn about Grovex Tech & Solutions LLC, our commitment to the Turtle Creek community, and how we became your trusted local technology partners.",
+            "name": "About GroveX - Local Growth & Technology Partners",
+            "description": "Learn about GroveX, our commitment to the Turtle Creek community, and how we are blending technology, creativity, and local growth under one brand.",
             "url": "https://grovextech.com/about",
             "breadcrumb": {
               "@type": "BreadcrumbList",
@@ -54,9 +54,9 @@ export default function AboutPage() {
       />
       <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20 max-w-7xl">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">About Grovex Tech & Solutions LLC</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">About GroveX</h1>
           <p className="text-base sm:text-lg md:text-xl text-foreground-secondary max-w-4xl mx-auto leading-relaxed px-2">
-            Your trusted local technology partners serving Turtle Creek and the Mon Valley
+            A local growth studio helping small businesses build stronger websites, clearer systems, and better foundations for long-term customer acquisition
           </p>
         </div>
 
@@ -88,21 +88,17 @@ export default function AboutPage() {
               </div>
               
               <div className="lg:col-span-2">
-                <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Meet Your Local Tech Partner</h2>
+                <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Meet the founder behind GroveX</h2>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary mb-4 sm:mb-6 leading-relaxed">
                   Hi, I&apos;m Christian, and I&apos;m proud to call Turtle Creek home. I grew up in nearby Braddock Hills 
                   and graduated from Penn State Greater Allegheny in 2025 with a degree in Cybersecurity Analytics & Operations. 
-                  Shortly after graduation, I was able to purchase 124 Grant Street and establish Grovex Tech & Solutions LLC right here in our community.
+                  Shortly after graduation, I was able to purchase 124 Grant Street and start building what is now becoming GroveX right here in our community.
                 </p>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary mb-4 sm:mb-6 leading-relaxed">
-                  Currently, I work as a Help Desk Technician during the day while building Grovex Tech & Solutions LLC as my side business. 
-                  My goal is to grow this into a full-time operation that serves our community&apos;s technology needs with the same 
-                  care and attention I&apos;d want for my own family.
+                  GroveX is a rebrand with a clearer direction: lean into growth. The name reflects the kind of work I want to do for local businesses—help them grow with better systems, stronger web presence, and dependable day-to-day technology. It also reflects the physical space itself, where my tech work and my girlfriend&apos;s flower shop vision can live alongside each other and strengthen one another.
                 </p>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                  Having grown up in this area, I understand the unique challenges our community faces. I speak 
-                  plain English, not tech jargon. Whether you&apos;re a senior learning to video chat with grandkids or a local business 
-                  owner needing reliable IT support, I&apos;m here to help make technology work for you, not against you.
+                  Having grown up in this area, I understand the challenges small businesses face when the brand, the website, and the operations layer are all fighting each other. I speak plain English, not tech jargon. GroveX is built to help owners tighten the foundation first so marketing, referrals, and future paid traffic have a better chance to work.
                 </p>
               </div>
             </div>
@@ -110,7 +106,7 @@ export default function AboutPage() {
 
           {/* Business Story Section */}
           <div className="bg-background-secondary rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">How Grovex Tech & Solutions LLC Came to Turtle Creek</h2>
+            <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">How GroveX is taking shape in Turtle Creek</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
               <div>
                 <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">The Beginning</h3>
@@ -120,9 +116,7 @@ export default function AboutPage() {
                   to our community&apos;s growth and technological advancement.
                 </p>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                  When I graduated in 2025, I was able to purchase 124 Grant Street and saw an opportunity to provide 
-                  professional IT services right here in Turtle Creek. What started as helping neighbors and local businesses 
-                  is growing into a full-time technology partner for our community.
+                  When I graduated in 2025, I was able to purchase 124 Grant Street and saw an opportunity to build something rooted here. What started as helping neighbors and local businesses with practical tech work is evolving into GroveX: a fuller brand centered on growth, useful systems, and a more intentional local presence.
                 </p>
               </div>
               
@@ -130,11 +124,10 @@ export default function AboutPage() {
                 <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">Why Turtle Creek?</h3>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary mb-4 leading-relaxed">
                   This community has everything I value: neighbors who look out for each other, local businesses that care about their customers, 
-                  and families who&apos;ve been here for generations. It&apos;s the perfect place to build a business based on relationships, not transactions.
+                  and owner-operators who are trying to build something durable. It&apos;s the right place to build a business based on relationships, not transactions.
                 </p>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                  I chose to set up shop at 124 Grant Street because I wanted to be right in the heart of our community. 
-                  When you need help, you shouldn&apos;t have to drive to some corporate office park - your tech support should be right down the street.
+                  I chose to set up shop at 124 Grant Street because I wanted to be right in the heart of our community. As the space evolves, I want it to feel alive and welcoming—a place where a neighborhood flower shop downstairs and a local technology studio can both contribute to the same idea: helping good things grow close to home.
                 </p>
               </div>
             </div>
@@ -142,58 +135,52 @@ export default function AboutPage() {
 
           {/* Community Commitment Section */}
           <div className="bg-background-secondary rounded-xl shadow-lg p-6 sm:p-8 lg:p-10 mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">My Promise to Turtle Creek</h2>
+            <h2 className="text-foreground text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">My Promise to Local Business Owners</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
               <div>
-                <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">Making Technology Accessible & Affordable</h3>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">Build the Foundation Before You Scale</h3>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary mb-4 leading-relaxed">
-                  I&apos;ve seen how technology can transform lives, but I&apos;ve also seen how expensive and intimidating it can be. 
-                  That&apos;s not right. Everyone in our community deserves access to the digital world, regardless of their budget or comfort level with computers.
+                  Too many businesses try to buy growth before the foundation is ready. A cleaner website, a clearer offer, stronger tracking, and fewer operational bottlenecks usually create better returns than rushing straight into more ad spend.
                 </p>
                 <div className="bg-background rounded-xl p-4 mb-4">
-                  <h4 className="font-semibold mb-2 text-primary">How I Keep It Affordable:</h4>
+                  <h4 className="font-semibold mb-2 text-primary">What That Foundation Looks Like:</h4>
                   <ul className="text-sm text-foreground-secondary space-y-1">
-                    <li>• Sliding scale pricing for seniors and fixed-income families</li>
-                    <li>• Payment plans for larger projects</li>
-                    <li>• Free initial consultations - always</li>
-                    <li>• Group discounts for neighbors who need similar help</li>
-                    <li>• Honest assessments - I&apos;ll tell you if you don&apos;t need an upgrade</li>
+                    <li>• A website that communicates trust quickly</li>
+                    <li>• Landing pages that can support future Google Ads traffic</li>
+                    <li>• Operational systems that reduce friction after the lead comes in</li>
+                    <li>• Clearer offers and better follow-through behind the scenes</li>
+                    <li>• Honest scoping around what matters now vs. later</li>
                   </ul>
                 </div>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                  My Help Desk experience has taught me to solve real problems quickly and explain technical solutions in plain English. 
-                  I&apos;ve also worked on various projects during my cybersecurity studies, including network security assessments 
-                  and web application security analysis that I can showcase on my GitHub.
+                  My help desk and cybersecurity background shaped how I work: solve the real bottleneck, reduce risk, and build systems people can actually maintain.
                 </p>
               </div>
               
               <div>
-                <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">Understanding Our Community&apos;s Real Needs</h3>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">What Small Businesses Actually Need</h3>
                 <p className="text-sm sm:text-base text-foreground-secondary mb-4 leading-relaxed">
-                  Since moving to Turtle Creek in 2025, I&apos;ve been getting to know what our community really needs from technology. 
-                  It&apos;s not the latest gadgets or complex systems - it&apos;s reliable solutions that make daily life easier and more connected.
+                  Most owner-operators don&apos;t need more noise. They need clearer positioning, dependable systems, and a site that can turn attention into real conversations.
                 </p>
                 <div className="bg-background rounded-xl p-4 mb-4">
-                  <h4 className="font-semibold mb-2 text-primary">What I&apos;ve Learned About Our Community:</h4>
+                  <h4 className="font-semibold mb-2 text-primary">Patterns I See Repeatedly:</h4>
                   <ul className="text-sm text-foreground-secondary space-y-1">
-                    <li>• Many seniors want to stay connected but need patient, respectful help</li>
-                    <li>• Small businesses need simple, effective websites they can update themselves</li>
-                    <li>• Families need reliable home networks for work and school</li>
-                    <li>• Everyone values straight talk over technical jargon</li>
-                    <li>• People want to support local businesses when they can</li>
+                    <li>• Websites that look decent but don&apos;t convert clearly</li>
+                    <li>• Operations held together by too many manual steps</li>
+                    <li>• Marketing efforts outpacing the underlying customer journey</li>
+                    <li>• Business owners who want plain advice, not inflated agency talk</li>
+                    <li>• Strong local businesses that deserve stronger systems</li>
                   </ul>
                 </div>
                 <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                  I&apos;m not here to sell you the most expensive solution. I&apos;m here to solve your actual problems with technology 
-                  that fits your life and your budget. Because when our community thrives, we all thrive.
+                  I&apos;m not trying to upsell complexity. I want to help businesses get more out of the attention they already earn—and be better prepared when they decide to scale further.
                 </p>
               </div>
             </div>
             
             <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-primary/10 rounded-xl border-l-4 border-primary">
               <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed italic">
-                &quot;Technology should serve people, not the other way around. My job is to make sure it works for you, 
-                in your home, for your business, at a price that makes sense for your situation. That&apos;s my commitment to Turtle Creek.&quot;
+                &quot;Growth works better when the foundation is strong. My job is to help local businesses build websites, systems, and support structures that make future marketing perform better instead of leak value.&quot;
               </p>
               <p className="text-sm font-semibold text-primary mt-2">- Christian Penrod, Founder</p>
             </div>
@@ -203,16 +190,14 @@ export default function AboutPage() {
             <div className="bg-background-secondary rounded-xl shadow-lg p-6 sm:p-8 lg:p-10">
               <h3 className="text-foreground text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4">Our Mission</h3>
               <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                To provide accessible, reliable technology solutions that empower Turtle Creek residents and local businesses. 
-                We believe everyone deserves tech support that&apos;s both professional and personal.
+                To help local businesses grow with stronger websites, clearer systems, and practical support that improves both day-to-day operations and long-term customer acquisition.
               </p>
             </div>
 
             <div className="bg-background-secondary rounded-xl shadow-lg p-6 sm:p-8 lg:p-10">
               <h3 className="text-foreground text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4">Our Vision</h3>
               <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary leading-relaxed">
-                To be the tech partner that our neighbors trust, where technology serves the community&apos;s needs and helps everyone thrive. 
-                We envision a digitally empowered Turtle Creek where every resident and business can leverage technology to succeed.
+                To become the growth and systems partner trusted by small businesses across Turtle Creek and the Mon Valley when they&apos;re ready to look sharper, run cleaner, and scale more intentionally.
               </p>
             </div>
           </div>
@@ -373,7 +358,7 @@ export default function AboutPage() {
                 <h3 className="text-lg sm:text-xl font-bold mb-3 text-primary">Technical Expertise Made Simple</h3>
                 <p className="text-sm sm:text-base text-foreground-secondary mb-4 leading-relaxed">
                   With a degree in Cybersecurity Analytics & Operations from Penn State Greater Allegheny and experience as a Help Desk Technician, 
-                  I bring professional-level expertise to everyday problems while growing Grovex Tech & Solutions LLC into a full-time local technology partner.
+                  I bring professional-level expertise to everyday problems while growing GroveX into a full-time local technology partner.
                 </p>
                 <div className="bg-background rounded-xl p-4">
                   <h4 className="font-semibold mb-2 text-primary">What This Means for You:</h4>

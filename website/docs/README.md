@@ -1,6 +1,6 @@
-# Grovex Tech & Solutions LLC Documentation
+# GroveX Documentation
 
-Welcome to the comprehensive documentation for the Grovex Tech & Solutions LLC website. This documentation covers design, development, content, and maintenance guidelines.
+Welcome to the comprehensive documentation for the GroveX website. This documentation covers design, development, content, and maintenance guidelines.
 
 ## 📚 Documentation Index
 
@@ -513,7 +513,7 @@ Check individual files for last update dates.
 
 ## 🎯 Summary
 
-This documentation provides everything needed to design, develop, and maintain the Grovex Tech & Solutions LLC website with consistency and quality. Start with the Quick Start guide for your role, reference specific docs as needed, and use the checklists before shipping.
+This documentation provides everything needed to design, develop, and maintain the GroveX website with consistency and quality. Start with the Quick Start guide for your role, reference specific docs as needed, and use the checklists before shipping.
 
 **Most Important Docs**:
 1. [Design System](DESIGN_SYSTEM.md) - Core design standards

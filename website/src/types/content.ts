@@ -1,4 +1,4 @@
-// Content Management Types for Grovex Tech & Solutions LLC Website
+// Content Management Types for GroveX Website
 
 export interface BusinessHours {
   day: string;

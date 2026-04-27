@@ -19,17 +19,18 @@ export default function Footer() {
                   className="h-12 w-12 opacity-80 hover:opacity-100 transition-opacity select-none flex-shrink-0"
                   priority={false}
                 />
-                <h3 className="text-xl font-bold text-foreground tracking-tight">Grovex Tech & Solutions LLC</h3>
+                <h3 className="text-xl font-bold text-foreground tracking-tight">GroveX</h3>
+                <p className="text-xs text-foreground-secondary">GroveX Tech &amp; Solutions LLC</p>
               </div>
             </div>
             <p className="text-base text-foreground-secondary mb-6 max-w-sm leading-relaxed mx-auto md:mx-0">
-              Serving Turtle Creek and the Mon Valley.
+              Websites, systems, and practical growth foundations for small businesses in Turtle Creek and the Mon Valley.
             </p>
             <nav>
               <ul className="flex justify-center md:justify-start space-x-4">
                 <li>
                   <a
-                    href="https://twitter.com/grovextech"
+                    href="https://x.com/grovextech"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-2"
@@ -120,21 +121,21 @@ export default function Footer() {
 
           {/* Service Areas */}
           <section className="text-center md:text-left">
-            <h4 className="text-lg font-semibold mb-6 text-foreground">Service Areas</h4>
+            <h4 className="text-lg font-semibold mb-6 text-foreground">Who We Help</h4>
             <div className="text-foreground-secondary text-base space-y-2">
-              <p className="font-semibold text-primary">Turtle Creek, PA 15145</p>
-              <p>Monroeville, PA</p>
-              <p>Wilmerding, PA</p>
-              <p>East Pittsburgh, PA</p>
-              <p>Braddock, PA</p>
-              <p>Rankin, PA</p>
-              <p className="text-sm italic mt-3">Serving the entire Mon Valley region</p>
+              <p className="font-semibold text-primary">Small Business Owners</p>
+              <p>Service Businesses</p>
+              <p>Local Shops & Studios</p>
+              <p>Founders & Operators</p>
+              <p>Teams Needing Better Systems</p>
+              <p>Brands Preparing for Paid Growth</p>
+              <p className="text-sm italic mt-3">Rooted in Turtle Creek, serving the Mon Valley region</p>
             </div>
           </section>
 
           {/* Contact Info */}
           <section className="text-center md:text-left">
-            <h4 className="text-lg font-semibold mb-6 text-foreground">Contact Us</h4>
+            <h4 className="text-lg font-semibold mb-6 text-foreground">Start a Conversation</h4>
             <address className="not-italic text-foreground-secondary text-base space-y-2">
               <p className="font-semibold text-foreground">124 Grant Street</p>
               <p className="font-semibold text-foreground">Turtle Creek, PA 15145</p>
@@ -161,7 +162,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-foreground-secondary text-sm">
-          <p>&copy; {new Date().getFullYear()} Grovex Tech & Solutions LLC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} GroveX Tech &amp; Solutions LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

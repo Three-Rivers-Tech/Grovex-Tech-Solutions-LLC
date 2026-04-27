@@ -2,7 +2,6 @@ import { FaEnvelope, FaMapMarkerAlt, FaClock, FaPhone } from "react-icons/fa";
 import { GoogleCalendarIframe } from "@/components/OptimizedIframe";
 
 export default function ContactPage() {
-
   return (
     <>
       <script
@@ -11,24 +10,14 @@ export default function ContactPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ContactPage",
-            "name": "Contact Us - Get in Touch with Grovex Tech & Solutions LLC",
-            "description": "Contact Grovex Tech & Solutions LLC for technology solutions. Reach out to our team for software development, IT consulting, SaaS products, or computer repair services.",
-            "url": "https://grovextech.com/contact",
-            "breadcrumb": {
+            name: "Contact GroveX",
+            description: "Contact GroveX about websites, software, support systems, and sustainable growth foundations for local business.",
+            url: "https://grovextech.com/contact",
+            breadcrumb: {
               "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://grovextech.com"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "Contact",
-                  "item": "https://grovextech.com/contact"
-                }
+              itemListElement: [
+                { "@type": "ListItem", position: 1, name: "Home", item: "https://grovextech.com" },
+                { "@type": "ListItem", position: 2, name: "Contact", item: "https://grovextech.com/contact" }
               ]
             }
           })
@@ -36,34 +25,29 @@ export default function ContactPage() {
       />
       <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20 max-w-7xl">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">Get in Touch</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">Start a Growth Conversation</h1>
           <p className="text-base sm:text-lg md:text-xl text-foreground-secondary max-w-4xl mx-auto leading-relaxed px-2">
-            {`We're your hometown tech partners here in Turtle Creek. Request an assessment of your tech needs - we're here to help with simple, affordable solutions.`}
+            Let&apos;s talk about what your business needs first: a sharper website, cleaner systems, better support, or a stronger base for future Google Ads and lead generation.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 max-w-6xl mx-auto">
           <div className="order-2 lg:order-1">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Book Your Visit</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">Book a Consultation</h2>
             <div className="mb-6 sm:mb-8">
               <p className="text-sm sm:text-base lg:text-lg text-foreground-secondary mb-4 sm:mb-6 leading-relaxed">
-                {`Schedule an assessment with our local team. We'll come to your home or business in Turtle Creek and surrounding areas. Contact us via email or schedule a visit below.`}
+                Schedule time with GroveX to discuss your business, your bottlenecks, and the systems or support work that would create the strongest next step.
               </p>
-              {/* Google Bookings Embed */}
               <div className="rounded-2xl overflow-hidden shadow-soft">
-                <GoogleCalendarIframe 
-                  src="https://calendar.app.google/1EwGScdmrC1dcwMR8"
-                  className="google-calendar-iframe w-full"
-                  height={500}
-                />
+                <GoogleCalendarIframe src="https://calendar.app.google/1EwGScdmrC1dcwMR8" className="google-calendar-iframe w-full" height={500} />
               </div>
             </div>
 
             <div className="space-y-4 sm:space-y-6">
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-6">
-                <h3 className="text-xl font-semibold text-blue-800 mb-4">Ready to Get Started?</h3>
+                <h3 className="text-xl font-semibold text-blue-800 mb-4">What We Can Talk Through</h3>
                 <p className="text-blue-700 mb-4">
-                  {`The easiest way to get help is to call us, email us, or schedule a visit using the calendar below. We'll discuss your tech needs and provide an assessment.`}
+                  Website improvements, landing pages, software ideas, IT cleanup, workflow problems, local growth strategy, or the groundwork needed before advertising harder.
                 </p>
                 <div className="space-y-3">
                   <div className="flex flex-wrap items-center gap-2">
@@ -76,9 +60,9 @@ export default function ContactPage() {
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="mr-2 text-blue-800" aria-hidden="true">✉️</span>
                     <a
-                      href="mailto:info@grovextech.com?subject=Tech Help Request&body=Hi! I need help with:%0D%0A%0D%0ADevice Type: %0D%0AProblem: %0D%0A%0D%0APlease contact me to schedule a visit.%0D%0A%0D%0AThank you!"
+                      href="mailto:info@grovextech.com?subject=Growth Consultation Request&body=Hi! I'd like to talk about:%0D%0A%0D%0ABusiness/Project: %0D%0ACurrent bottleneck: %0D%0AGrowth goal: %0D%0A%0D%0APlease contact me to schedule a conversation.%0D%0A%0D%0AThank you!"
                       className="text-blue-700 hover:text-blue-900 underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md px-1 -mx-1"
-                      aria-label="Email the Grovex Tech & Solutions LLC support team"
+                      aria-label="Email the GroveX team"
                     >
                       <span className="sr-only">Email address:</span>
                       <span>Email us: info@grovextech.com</span>
@@ -86,18 +70,17 @@ export default function ContactPage() {
                   </div>
                   <div className="flex items-center">
                     <span className="font-semibold text-blue-800 mr-2">📅</span>
-                    <span className="text-blue-700">Or schedule below using our calendar</span>
+                    <span className="text-blue-700">Or book directly using the calendar below</span>
                   </div>
                 </div>
               </div>
 
-            <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl">
-              <h3 className="text-lg font-semibold text-green-800 mb-2">Response Time</h3>
-              <p className="text-green-700 text-sm">
-                We typically respond to all emails within 24 hours during business days.
-                For urgent issues, send us an email with the word urgent in the subject line and we will get back to you as quickly as possible.
-              </p>
-            </div>
+              <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl">
+                <h3 className="text-lg font-semibold text-green-800 mb-2">Response Time</h3>
+                <p className="text-green-700 text-sm">
+                  We typically respond within 24 hours on business days. If something is urgent, say so in the subject line and we&apos;ll move faster.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -106,41 +89,25 @@ export default function ContactPage() {
 
             <div className="space-y-6 sm:space-y-8">
               <div className="flex items-start">
-                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0">
-                  <FaPhone className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-                </div>
+                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0"><FaPhone className="h-5 w-5 sm:h-6 sm:w-6 text-white" /></div>
                 <div className="flex-grow">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Phone</h3>
-                  <a 
-                    href="tel:+14122069453"
-                    className="text-sm sm:text-base lg:text-lg text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-1 -m-1 font-semibold"
-                  >
-                    (412) 206-9453
-                  </a>
+                  <a href="tel:+14122069453" className="text-sm sm:text-base lg:text-lg text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-1 -m-1 font-semibold">(412) 206-9453</a>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0">
-                  <FaEnvelope className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-                </div>
+                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0"><FaEnvelope className="h-5 w-5 sm:h-6 sm:w-6 text-white" /></div>
                 <div className="flex-grow">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Email</h3>
-                  <a 
-                    href="mailto:info@grovextech.com"
-                    className="text-sm sm:text-base lg:text-lg text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-1 -m-1 break-all"
-                  >
-                    info@grovextech.com
-                  </a>
+                  <a href="mailto:info@grovextech.com" className="text-sm sm:text-base lg:text-lg text-foreground-secondary hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-md p-1 -m-1 break-all">info@grovextech.com</a>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0">
-                  <FaMapMarkerAlt className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-                </div>
+                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0"><FaMapMarkerAlt className="h-5 w-5 sm:h-6 sm:w-6 text-white" /></div>
                 <div className="flex-grow">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Office Location</h3>
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Studio Location</h3>
                   <address className="not-italic text-sm sm:text-base lg:text-lg text-foreground-secondary">
                     <p>124 Grant Street</p>
                     <p>Turtle Creek, PA 15145</p>
@@ -149,9 +116,7 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0">
-                  <FaClock className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-                </div>
+                <div className="bg-primary rounded-full p-3 sm:p-4 mr-3 sm:mr-4 flex-shrink-0"><FaClock className="h-5 w-5 sm:h-6 sm:w-6 text-white" /></div>
                 <div className="flex-grow">
                   <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Business Hours</h3>
                   <div className="text-sm sm:text-base lg:text-lg text-foreground-secondary space-y-1">

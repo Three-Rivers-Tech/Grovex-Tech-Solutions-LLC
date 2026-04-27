@@ -1,37 +1,35 @@
 [
   {
     "id": "home-support",
-    "title": "Home & Personal Tech Support",
-    "description": "Computer repair, virus removal, Wi-Fi setup, smartphone training for seniors, and on-site visits in Turtle Creek and surrounding areas.",
-    "shortDescription": "Computer repair and tech support right in your home",
+    "title": "Repair & Device Support",
+    "description": "Selective repair, troubleshooting, and device support for business-critical issues plus local support when the fit is right.",
+    "shortDescription": "Repair and support for business devices and critical local tech issues",
     "icon": "FaTools",
     "features": [
-      "Computer Repair & Virus Removal ($75-150)",
-      "Wi-Fi Optimization & Setup ($100)",
-      "Smartphone Setup & Training for Seniors ($60/hour)",
-      "Data Backup & Recovery ($100-300)",
-      "Software Installation & Updates",
-      "Email Setup & Management",
-      "On-Site Visits (Free in Turtle Creek, $25 surrounding areas - waived with service)",
-      "Printer Troubleshooting",
-      "Patient, step-by-step instruction"
+      "Business Device Repair & Malware Cleanup",
+      "Wi-Fi / Network Troubleshooting",
+      "Data Backup & Recovery",
+      "Software Cleanup & Updates",
+      "Email & Account Access Recovery",
+      "On-Site Support When Needed",
+      "Printer / Peripheral Troubleshooting",
+      "Selective Local Repair Support"
     ],
     "benefits": [
-      "No need to transport devices",
-      "Patient, helpful service",
-      "Senior-friendly instruction",
+      "Reduce downtime when something breaks",
+      "Fast help for business-critical issues",
       "Local, reliable support",
-      "Same-day service available",
-      "Personal attention to your needs",
-      "Secure handling of personal data",
-      "On-site fee waived for seniors 65+"
+      "Same-day response when available",
+      "Practical troubleshooting",
+      "Secure handling of important data",
+      "Support that fits the bigger business-first brand"
     ],
     "pricing": {
-      "startingPrice": "$60",
-      "priceRange": "$60-$300"
+      "startingPrice": "$99",
+      "priceRange": "$99-$300"
     },
     "cta": {
-      "text": "Book Home Visit",
+      "text": "Book Support",
       "href": "/contact?service=home-support"
     },
     "image": "/images/services/home-support.jpg"

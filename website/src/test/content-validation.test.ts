@@ -238,8 +238,8 @@ const checkForPlaceholders = (text: unknown, context: string): string[] => {
     it('should have consistent branding and messaging', () => {
       const pages = ['home', 'services', 'about', 'contact']
       const brandKeywords = [
-        siteConfig.name.toLowerCase(),
-        'technology solutions',
+        'grovex',
+        'growth systems',
         'professional',
         'custom',
         'reliable'
@@ -251,7 +251,7 @@ const checkForPlaceholders = (text: unknown, context: string): string[] => {
           const pageText = JSON.stringify(content).toLowerCase()
           
           // Each page should mention the company name
-          expect(pageText).toContain(siteConfig.name.toLowerCase())
+          expect(pageText).toContain('grovex')
           
           // Each page should have professional tone indicators
           const professionalWords = brandKeywords.filter(keyword => 
@@ -267,11 +267,11 @@ const checkForPlaceholders = (text: unknown, context: string): string[] => {
     it('should have meaningful alt text for all images', () => {
       // Mock image data that would be extracted from components
       const mockImages = [
-        { src: '/images/hero-banner.jpg', alt: 'Grovex Tech & Solutions LLC team working on custom software development projects' },
+        { src: '/images/hero-banner.jpg', alt: 'GroveX team working on custom software development projects' },
         { src: '/images/software-dev.jpg', alt: 'Modern software development workspace with multiple monitors showing code' },
         { src: '/images/it-consulting.jpg', alt: 'IT consultant analyzing network infrastructure diagrams with client' },
         { src: '/images/computer-repair.jpg', alt: 'Technician diagnosing hardware issues on laptop computer' },
-        { src: '/images/team-photo.jpg', alt: 'Grovex Tech & Solutions LLC team members collaborating in modern office environment' }
+        { src: '/images/team-photo.jpg', alt: 'GroveX team members collaborating in modern office environment' }
       ]
       
       mockImages.forEach((image, index) => {

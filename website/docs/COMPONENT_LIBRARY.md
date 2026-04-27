@@ -1,6 +1,6 @@
 # Component Library Reference
 
-Quick reference guide for all reusable UI components in the Grovex Tech & Solutions LLC design system.
+Quick reference guide for all reusable UI components in the GroveX design system.
 
 ## 🎯 Quick Links
 

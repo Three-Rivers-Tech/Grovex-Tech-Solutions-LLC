@@ -1,81 +1,57 @@
 import Link from "next/link";
 
-/**
- * Enhanced hero section with community-focused messaging
- * 
- * Features:
- * - Rotating slide content (currently showing first slide)
- * - Local business address badge
- * - Warm, community-focused color gradients
- * - Responsive typography and spacing
- * - Dual CTA buttons for phone and booking
- * - Animated background elements
- * - Accessibility-compliant structure
- * 
- * @returns JSX element containing the hero section
- */
 export default function EnhancedHero() {
-  /**
-   * Slide configuration for hero content rotation
-   * Currently displays first slide only - can be made dynamic later
-   * Each slide contains community-focused messaging and consistent CTAs
-   */
   const slides = [
     {
-      title: "Your Hometown Tech Partner in Turtle Creek",
-      subtitle: "Big-city know-how at small-town prices. We live here, work here, and understand your needs.",
-      ctaPrimary: "Contact Our Team for a Free Consultation",
-      ctaSecondary: "Book Your Home Visit Today",
+      title: "Build Sustainable Growth from Turtle Creek",
+      subtitle:
+        "GroveX helps local businesses strengthen the foundation first—clear websites, dependable systems, and practical support that can later power stronger Google Ads results without leading as a consumer repair brand.",
+      ctaPrimary: "Start a Growth Conversation",
+      ctaSecondary: "Explore Services",
       ctaPrimaryLink: "/contact",
-      ctaSecondaryLink: "/contact",
-      bgColor: "from-teal-600 to-emerald-700" // Warm, earthy tones
+      ctaSecondaryLink: "/services",
+      bgColor: "from-teal-600 to-emerald-700"
     },
     {
-      title: "Simple Tech Solutions for Families and Small Businesses",
-      subtitle: "From computer repairs to website design, we make technology accessible and affordable for everyone in our community.",
-      ctaPrimary: "Contact Our Team for a Free Consultation",
-      ctaSecondary: "Book Your Home Visit Today",
-      ctaPrimaryLink: "/contact",
+      title: "Websites, Systems, and Real Local Momentum",
+      subtitle:
+        "From storefront presentation to behind-the-scenes operations, we build practical infrastructure that helps local brands look sharper and run cleaner.",
+      ctaPrimary: "See What We Do",
+      ctaSecondary: "Book a Consultation",
+      ctaPrimaryLink: "/services",
       ctaSecondaryLink: "/contact",
-      bgColor: "from-emerald-600 to-teal-700" // Warm, earthy tones
+      bgColor: "from-emerald-600 to-teal-700"
     },
     {
-      title: "Serving Turtle Creek and the Mon Valley",
-      subtitle: "Your neighbors providing reliable tech support with personal service. We're here when you need us most.",
-      ctaPrimary: "Contact Our Team for a Free Consultation",
-      ctaSecondary: "Book Your Home Visit Today",
-      ctaPrimaryLink: "/contact",
+      title: "A Growth Studio Taking Root at 124 Grant Street",
+      subtitle:
+        "Technology, retail energy, and community presence are coming together in one place—designed to help good local businesses grow with confidence.",
+      ctaPrimary: "Learn Our Story",
+      ctaSecondary: "Get in Touch",
+      ctaPrimaryLink: "/about",
       ctaSecondaryLink: "/contact",
-      bgColor: "from-teal-700 to-green-700" // Warm, earthy tones
+      bgColor: "from-teal-700 to-green-700"
     }
   ];
 
-  const currentSlide = 0; // Currently showing first slide, can be made dynamic later
+  const currentSlide = 0;
 
   return (
-    <section
-      className="relative overflow-hidden"
-      role="banner"
-      aria-label="Hero section"
-    >
-      {/* Background with warm, community-focused gradient */}
+    <section className="relative overflow-hidden" role="banner" aria-label="Hero section">
       <div className={`absolute inset-0 bg-gradient-to-r ${slides[currentSlide].bgColor} transition-all duration-1000 ease-in-out`} aria-hidden="true"></div>
 
-      {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20 lg:py-28 relative z-10 max-w-7xl">
         <div className="text-center">
-          {/* Location badge */}
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/40 text-white/95 text-sm font-medium mb-6 animate-fade-in">
             <span className="mr-2">📍</span>
             124 Grant Street, Turtle Creek, PA 15145
           </div>
-          
+
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 transition-all duration-700 ease-in-out leading-tight px-2">
             {slides[currentSlide].title}
           </h1>
@@ -86,45 +62,17 @@ export default function EnhancedHero() {
             <Link
               href={slides[currentSlide].ctaPrimaryLink}
               className="bg-white text-primary font-semibold py-3 sm:py-3 px-6 sm:px-8 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary text-center min-h-[48px] flex items-center justify-center text-base sm:text-lg font-medium"
-              aria-describedby="cta-primary-description"
             >
               {slides[currentSlide].ctaPrimary}
             </Link>
             <Link
               href={slides[currentSlide].ctaSecondaryLink}
               className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-semibold py-3 sm:py-3 px-6 sm:px-8 rounded-xl hover:bg-white hover:text-primary hover:border-primary transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary text-center min-h-[48px] flex items-center justify-center text-base sm:text-lg font-medium"
-              aria-describedby="cta-secondary-description"
             >
               {slides[currentSlide].ctaSecondary}
             </Link>
           </div>
-          
-          {/* Screen reader descriptions for CTAs */}
-          <div className="sr-only">
-            <div id="cta-primary-description">Primary call to action button</div>
-            <div id="cta-secondary-description">Secondary call to action button</div>
-          </div>
         </div>
-      </div>
-
-      {/* Floating elements for visual interest */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce" aria-hidden="true">
-        <svg
-          className="w-6 h-6 text-white opacity-80"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-          suppressHydrationWarning={true}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M19 14l-7 7m0 0l-7-7m7 7V3"
-          />
-        </svg>
       </div>
     </section>
   );

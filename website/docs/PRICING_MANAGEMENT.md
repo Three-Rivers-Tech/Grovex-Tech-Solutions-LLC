@@ -1,10 +1,10 @@
 # Pricing Management Guide
 
-This document outlines the pricing structure and management process for Grovex Tech & Solutions LLC services.
+This document outlines the pricing structure and management process for GroveX services.
 
 ## Overview
 
-Grovex Tech & Solutions LLC follows a transparent, customer-focused pricing philosophy: **"Small-town prices, big-city know-how."** All pricing information is centralized in `/website/src/content/pricing.json` to ensure consistency across the website.
+GroveX follows a transparent, customer-focused pricing philosophy: **"Small-town prices, big-city know-how."** All pricing information is centralized in `/website/src/content/pricing.json` to ensure consistency across the website.
 
 ## Pricing Structure
 

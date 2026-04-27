@@ -152,7 +152,7 @@ function generateRecommendations() {
 
 // Main execution
 function main() {
-  console.log('🔍 Grovex Tech & Solutions LLC - Bundle Analyzer');
+  console.log('🔍 GroveX - Bundle Analyzer');
   console.log('======================================\n');
   
   analyzeJavaScript();

@@ -5,19 +5,19 @@ export default function ITConsulting() {
     <section id="small-business-it" className="py-16 border-b border-border scroll-mt-24">
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="md:w-1/2">
-          <h2 className="text-3xl font-bold mb-4">Small Business IT Packages</h2>
+          <h2 className="text-3xl font-bold mb-4">Business Systems & Growth Support</h2>
           <p className="text-foreground-secondary mb-6">
-            Affordable IT solutions designed specifically for local small businesses. We understand that as a small business owner in Turtle Creek, you need reliable technology that fits your budget and serves your customers effectively.
+            Practical support for small businesses that need stronger websites, cleaner operations, and more reliable technology before scaling growth efforts. GroveX helps owners tighten the foundation so customer acquisition works better.
           </p>
           
           <div className="space-y-6">
             {/* Starter Website Package */}
             <div className="bg-background-secondary border border-border p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-primary mb-3">Starter Website Package - $499</h3>
+              <h3 className="text-lg font-semibold text-primary mb-3">Starter Website & Conversion Package - $499</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="text-foreground">WordPress website with professional design</span>
+                  <span className="text-foreground">Professional website built for trust and clarity</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
@@ -25,11 +25,11 @@ export default function ITConsulting() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="text-foreground">Local SEO optimization for Turtle Creek area</span>
+                  <span className="text-foreground">Local SEO and conversion-focused page structure</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="text-foreground">Google My Business setup and optimization</span>
+                  <span className="text-foreground">Google Business Profile setup and optimization</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
@@ -40,7 +40,7 @@ export default function ITConsulting() {
 
             {/* Small Office IT Setup */}
             <div className="bg-background-secondary border border-border p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-primary mb-3">Small Office IT Setup - $299-599</h3>
+              <h3 className="text-lg font-semibold text-primary mb-3">Operations & IT Setup - $299-599</h3>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
@@ -60,14 +60,14 @@ export default function ITConsulting() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2 flex-shrink-0 font-bold">✓</span>
-                  <span className="text-foreground">Point-of-sale system integration (if needed)</span>
+                  <span className="text-foreground">Point-of-sale and workflow system integration (if needed)</span>
                 </li>
               </ul>
             </div>
 
             {/* Managed Care Plans */}
             <div className="bg-background-secondary border border-border p-6 rounded-lg shadow-sm">
-              <h3 className="text-lg font-semibold text-primary mb-4">Monthly Support Plans</h3>
+              <h3 className="text-lg font-semibold text-primary mb-4">Ongoing Support Plans</h3>
               <div className="space-y-4">
                 <div className="border-l-2 border-border pl-4">
                   <p className="font-medium text-foreground">Tech Support Essentials - $49/month</p>
@@ -79,7 +79,7 @@ export default function ITConsulting() {
                 </div>
                 <div className="border-l-2 border-primary pl-4 bg-primary/10 -ml-px py-2 rounded-r">
                   <p className="font-medium text-primary">Peace of Mind - Complete Care - $149/month <span className="text-xs bg-primary text-white px-2 py-0.5 rounded ml-2">Best Value</span></p>
-                  <p className="text-sm text-foreground-secondary">Everything in Business Protection + monthly on-site visit, advanced cybersecurity, quarterly planning</p>
+                  <p className="text-sm text-foreground-secondary">Everything in Business Protection + monthly on-site visit, advanced cybersecurity, and quarterly growth/planning reviews</p>
                 </div>
                 <div className="border-l-2 border-border pl-4">
                   <p className="font-medium text-foreground">Enterprise Partnership - $299/month</p>
@@ -91,7 +91,7 @@ export default function ITConsulting() {
 
           <div className="mt-6 p-4 bg-primary/10 rounded-lg">
             <p className="text-sm font-medium text-primary">
-              💡 All packages include transparent pricing with no hidden fees. We believe in honest, upfront costs so you can budget with confidence.
+              💡 All packages include transparent pricing with no hidden fees. The goal is to help you strengthen the customer journey and operations layer before wasting money on weak foundations.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function ITConsulting() {
               href="/contact?service=small-business-it"
               className="inline-flex items-center justify-center bg-primary text-white font-semibold py-3 px-6 rounded-lg hover:bg-primary-hover transition-colors"
             >
-              Request an Assessment
+              Book a Growth Consultation
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
@@ -134,7 +134,7 @@ export default function ITConsulting() {
             </div>
             <OptimizedImage
               src="/it_consult.png"
-              alt="Small Business IT Consultation Services - Professional IT solutions for local businesses"
+              alt="Business systems and IT consulting services for small businesses"
               width={600}
               height={400}
               className="rounded-lg w-full h-64 md:h-80 object-contain relative z-10"

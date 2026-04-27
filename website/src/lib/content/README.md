@@ -149,8 +149,8 @@ console.log(`Loaded ${stats.services} services and ${stats.testimonials} testimo
 ### JSON Format
 ```json
 {
-  "name": "Grovex Tech & Solutions LLC",
-  "description": "Comprehensive technology solutions",
+  "name": "GroveX",
+  "description": "Comprehensive growth systems",
   "phone": "Business phone line coming soon",
   "email": "info@grovextech.com"
 }
@@ -158,8 +158,8 @@ console.log(`Loaded ${stats.services} services and ${stats.testimonials} testimo
 
 ### YAML Format
 ```yaml
-name: Grovex Tech & Solutions LLC
-description: Comprehensive technology solutions
+name: GroveX
+description: Comprehensive growth systems
 phone: "Business phone line coming soon"
 email: info@grovextech.com
 ```

@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 // Expected community messaging elements
 const expectedElements = {
-  businessName: "Grovex Tech & Solutions LLC",
+  businessName: "GroveX",
   tagline: "Your hometown tech partner",
   location: "Turtle Creek, PA 15145",
   address: "124 Grant Street",

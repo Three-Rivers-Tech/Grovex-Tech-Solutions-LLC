@@ -1,7 +1,7 @@
 /**
  * UI Components Library
  * 
- * Reusable, consistent components for the Grovex Tech & Solutions LLC website.
+ * Reusable, consistent components for the GroveX website.
  * These components help maintain design consistency and reduce code duplication.
  */
 

@@ -1,6 +1,6 @@
-# Grovex Tech & Solutions LLC Website
+# GroveX Website
 
-A community-focused technology services website built with Next.js 15, designed specifically for Turtle Creek, PA residents and small businesses. This site transforms Grovex Tech & Solutions LLC from a corporate enterprise focus to a hometown tech partner offering "big-city know-how at small-town prices."
+A community-focused technology services website built with Next.js 15, designed specifically for Turtle Creek, PA residents and small businesses. This site transforms GroveX from a corporate enterprise focus to a hometown tech partner offering "big-city know-how at small-town prices."
 
 ## 🌟 Community Mission
 
@@ -343,8 +343,8 @@ For technical support or questions:
 
 ## 📄 License
 
-This project is proprietary software owned by Grovex Tech & Solutions LLC. All rights reserved.
+This project is proprietary software owned by GroveX. All rights reserved.
 
 ---
 
-**Grovex Tech & Solutions LLC** - Your hometown technology partner in Turtle Creek, PA
+**GroveX** - Your hometown technology partner in Turtle Creek, PA

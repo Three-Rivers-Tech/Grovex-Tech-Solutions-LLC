@@ -39,8 +39,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            Big-city know-how at small-town prices. We live here, work here, and understand your needs.
-            From home computer repair to small business websites, we make technology accessible for everyone.
+            We build practical digital foundations for local businesses that want to look sharper, run cleaner, and grow with more confidence.
           </p>
 
           {/* Service Pills */}

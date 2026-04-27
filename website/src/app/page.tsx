@@ -4,6 +4,7 @@ import WhyChooseUs from "@/app/components/WhyChooseUs";
 import ExperienceSection from "@/app/components/ExperienceSection";
 import CallToAction from "@/app/components/CallToAction";
 import PortfolioSection from "@/app/components/PortfolioSection";
+import SpaceStorySection from "@/app/components/SpaceStorySection";
 import StructuredData from "@/components/StructuredData";
 import { generatePageStructuredData } from "@/lib/structured-data";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <PortfolioSection />
+      <SpaceStorySection />
       <ExperienceSection />
       <CallToAction />
     </>

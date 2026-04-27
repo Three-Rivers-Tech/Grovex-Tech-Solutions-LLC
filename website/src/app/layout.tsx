@@ -14,34 +14,32 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const siteUrl = 'https://grovextech.com';
 // Public analytics identifier (only load GA when defined)
 const gaId = process.env.NEXT_PUBLIC_GA_ID;
-// Google Ads conversion tracking ID (only load when defined)
-const adsId = process.env.NEXT_PUBLIC_ADS_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Grovex Tech & Solutions LLC — Honest Local IT & Web Services',
-    template: '%s | Grovex Tech & Solutions LLC'
+    default: 'GroveX — Technology & Growth for Local Business',
+    template: '%s | GroveX'
   },
-  description: 'Straightforward, community-focused technology services: web design, IT support, repairs, and custom software for small business & neighbors.',
-  applicationName: 'Grovex Tech & Solutions LLC',
+  description: 'Community-rooted websites, IT support, creative systems, and practical growth infrastructure for local businesses.',
+  applicationName: 'GroveX',
   keywords: [
-    'IT support','web design','software development','computer repair','Mon Valley','small business tech','computer repair Turtle Creek PA'
+    'IT support','web design','software development','computer repair','Mon Valley','small business systems','Google Ads landing pages'
   ],
-  authors: [{ name: 'Grovex Tech & Solutions LLC' }],
-  creator: 'Grovex Tech & Solutions LLC',
-  publisher: 'Grovex Tech & Solutions LLC',
+  authors: [{ name: 'GroveX Tech & Solutions LLC' }],
+  creator: 'GroveX Tech & Solutions LLC',
+  publisher: 'GroveX Tech & Solutions LLC',
   openGraph: {
     type: 'website',
     url: siteUrl,
-    siteName: 'Grovex Tech & Solutions LLC',
-    title: 'Grovex Tech & Solutions LLC — Honest Local IT & Web Services',
-    description: 'Straightforward, community-focused technology services built for trust and clarity.',
+    siteName: 'GroveX',
+    title: 'GroveX — Technology & Growth for Local Business',
+    description: 'Community-rooted technology, websites, and growth systems built for trust, clarity, and momentum.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Grovex Tech & Solutions LLC — Honest Local IT & Web Services',
-    description: 'Straightforward, community-focused technology services built for trust and clarity.'
+    title: 'GroveX — Technology & Growth for Local Business',
+    description: 'Community-rooted technology, websites, and growth systems built for trust, clarity, and momentum.'
   },
   robots: {
     index: true,
@@ -71,13 +69,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />        
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
       </head>
        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
-         {(gaId || adsId) && (
+         {gaId && (
            <>
              <Script
-               src={`https://www.googletagmanager.com/gtag/js?id=${gaId ?? adsId}`}
+               src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
                strategy="afterInteractive"
              />
              <Script id="gtag-init" strategy="afterInteractive">
@@ -85,7 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                  window.dataLayer = window.dataLayer || [];
                  function gtag(){dataLayer.push(arguments);}
                  gtag('js', new Date());
-                 ${[gaId, adsId].filter(Boolean).map(id => `gtag('config', '${id}');`).join('\n                 ')}
+                 gtag('config', '${gaId}');
                `}
              </Script>
            </>

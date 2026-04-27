@@ -1,6 +1,6 @@
-# Community-Focused Imagery for Grovex Tech & Solutions LLC
+# Community-Focused Imagery for GroveX
 
-This directory contains images that support the community-focused transformation of the Grovex Tech & Solutions LLC website.
+This directory contains images that support the community-focused transformation of the GroveX website.
 
 ## Image Strategy
 

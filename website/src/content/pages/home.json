@@ -1,78 +1,77 @@
 {
   "hero": {
-    "headline": "Professional IT Services for Growing Businesses",
-    "subheadline": "Enterprise Software Solutions • IT Infrastructure & Support • SaaS Integration • Hardware Maintenance",
-    "description": "Transform local operations with expert technology solutions that improve efficiency, resilience, and long-term growth. Our team partners with leaders across Turtle Creek and the Mon Valley to deliver measurable improvements without confusing jargon or hidden costs.",
+    "headline": "Technology that helps local businesses grow",
+    "subheadline": "Websites • IT Support • Custom Systems • Creative Growth Infrastructure",
+    "description": "GroveX builds practical digital systems for local businesses, service shops, and community-driven brands. From dependable tech support to polished web experiences, we help growth take root without jargon, bloat, or guesswork.",
     "primaryCTA": {
-      "text": "Schedule a Consultation",
+      "text": "Start a Growth Conversation",
       "href": "/contact",
       "variant": "primary"
     },
     "secondaryCTA": {
-      "text": "View Our Services",
+      "text": "Explore Services",
       "href": "/services",
       "variant": "secondary"
     },
     "backgroundImage": "/images/hero/technology-solutions.jpg",
     "features": [
-      "10+ Years Serving Pittsburgh",
+      "Community-Rooted Strategy",
       "Plain English Communication",
-      "Reliable 24/7 Support",
-      "Results-Driven Solutions"
+      "Tech That Scales With You",
+      "Built for Real Local Growth"
     ]
   },
   "callToAction": {
-    "headline": "Ready to Transform Your Technology Strategy?",
-    "description": "Schedule a comprehensive technology consultation to discover how our expert solutions can optimize daily operations, enhance security, and drive sustainable growth for regional teams.",
+    "headline": "Ready to grow something stronger?",
+    "description": "Let’s map out the systems, website, and support structure your business needs to grow with confidence—from the storefront to the back office.",
     "primaryButton": {
-      "text": "Schedule a Consultation",
+      "text": "Start a Growth Conversation",
       "href": "/contact"
     },
-
     "backgroundType": "gradient",
     "backgroundColor": "from-blue-600 to-purple-600"
   },
   "messaging": {
-    "introParagraph": "Grovex Tech & Solutions LLC provides dependable technology guidance for local organizations that need practical answers. From the first discovery call we document infrastructure gaps, clarify priorities, and align every recommendation to budgets that make sense for Western Pennsylvania teams. Clients appreciate that we translate complex systems into plain language and stick around until the fix is verified.",
-    "communityParagraph": "Our engineers live in the neighborhoods we support, and that community focus shapes every project. We have modernized Wi-Fi in Turtle Creek offices, stabilized point-of-sale systems for Monroeville retailers, and trained seniors in Wilmerding on safe device practices. Volunteer workshops with youth robotics programs keep us tuned to emerging talent while reinforcing our commitment to local STEM education.",
-    "serviceParagraph": "Engagements range from proactive workstation maintenance and cloud migrations to custom software that eliminates manual paperwork. We combine code reviews, hardware testing, and cybersecurity assessments into one cohesive roadmap so leadership sees exactly how each investment reduces risk. Every deliverable includes a written maintenance checklist and a quick-reference guide for frontline staff.",
-    "ctaParagraph": "Contact us today to map out an improvement plan or request an on-site visit. Whether you need after-hours emergency support, quarterly infrastructure reviews, or a trusted partner for long-term digital strategy, our Turtle Creek specialists are ready to help you get started and stay confident."
+    "introParagraph": "GroveX is the next chapter of our local work: a brand built around growth, resilience, and practical momentum. We help neighborhood businesses clarify their digital presence, tighten up operations, and build systems they can actually maintain. Every recommendation is shaped around plain language, realistic budgets, and what will move the business forward now—not someday.",
+    "communityParagraph": "That growth mindset extends beyond screens. At 124 Grant Street, we’re shaping a space where technology, retail, and creativity reinforce each other. With a flower shop growing alongside the tech studio, the brand is intentionally leaning into something more alive: stronger roots, better systems, and a storefront that reflects the energy of the community around it.",
+    "serviceParagraph": "Our work still spans websites, software, IT support, hardware, and day-to-day troubleshooting—but the positioning is sharper now. GroveX helps founders and local operators create polished customer experiences out front and dependable systems behind the scenes, whether that means a new website, point-of-sale workflow, Wi-Fi cleanup, or a custom tool that cuts out repetitive admin work.",
+    "ctaParagraph": "If you’re building something local and want a partner who understands both the technical side and the growth side, let’s talk. We’ll help you shape the next version of the business with systems that feel grounded, useful, and ready to scale."
   },
   "seo": {
-    "title": "Grovex Tech & Solutions LLC - Comprehensive Technology Solutions",
-    "description": "Professional technology solutions including software development, IT consulting, SaaS products, and computer repair services in Pittsburgh, PA. 10+ years experience.",
+    "title": "GroveX - Technology That Helps Local Businesses Grow",
+    "description": "Community-rooted websites, IT support, software, and growth systems for local businesses in Turtle Creek and the Mon Valley.",
     "keywords": [
-      "technology solutions",
+      "growth systems",
       "software development",
       "IT consulting",
-      "SaaS products",
-      "computer repair",
-      "Pittsburgh",
+      "local business growth",
+      "community-rooted web design",
+      "Turtle Creek",
       "Pennsylvania",
       "custom software",
       "web development",
-      "mobile apps"
+      "creative business systems"
     ],
     "canonical": "https://grovextech.com/",
     "openGraph": {
-      "title": "Grovex Tech & Solutions LLC - Comprehensive Technology Solutions",
-      "description": "Professional technology solutions including software development, IT consulting, SaaS products, and computer repair services in Pittsburgh, PA.",
+      "title": "GroveX - Technology That Helps Local Businesses Grow",
+      "description": "Community-rooted websites, IT support, software, and growth systems for local businesses in Turtle Creek and the Mon Valley.",
       "images": [
         {
           "url": "https://grovextech.com/images/og/homepage.jpg",
           "width": 1200,
           "height": 630,
-          "alt": "Grovex Tech & Solutions LLC - Technology Solutions"
+          "alt": "GroveX - technology and growth studio"
         }
       ],
       "type": "website",
-      "siteName": "Grovex Tech & Solutions LLC",
+      "siteName": "GroveX",
       "locale": "en_US"
     },
     "twitter": {
       "card": "summary_large_image",
-      "title": "Grovex Tech & Solutions LLC - Comprehensive Technology Solutions",
-      "description": "Professional technology solutions including software development, IT consulting, SaaS products, and computer repair services.",
+      "title": "GroveX - Technology That Helps Local Businesses Grow",
+      "description": "Community-rooted websites, IT support, software, and growth systems for local businesses.",
       "images": [
         "https://grovextech.com/images/twitter/homepage.jpg"
       ]
@@ -80,11 +79,10 @@
     "structuredData": {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Grovex Tech & Solutions LLC",
-      "description": "Comprehensive technology solutions for businesses",
+      "name": "GroveX",
+      "description": "Technology and growth systems for local businesses",
       "url": "https://grovextech.com",
       "logo": "https://grovextech.com/images/logo.png",
-
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "124 Grant Street",
@@ -94,9 +92,9 @@
         "addressCountry": "US"
       },
       "sameAs": [
-        "https://www.linkedin.com/company/grovextech",
+        "https://www.linkedin.com/company/grovextech/",
         "https://www.facebook.com/grovextech",
-        "https://twitter.com/grovextech"
+        "https://x.com/grovextech"
       ]
     }
   }

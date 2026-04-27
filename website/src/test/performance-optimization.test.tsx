@@ -100,7 +100,7 @@ describe('Performance Optimization for Local Users', () => {
       expect(emailLink.className).toContain('focus:ring-2');
 
       const bookingFrame = screen.getByRole('application', {
-        name: /schedule an appointment with grovex tech & solutions llc/i,
+        name: /schedule an appointment with grovex/i,
       });
       expect(bookingFrame).toHaveAttribute('src', 'https://calendar.app.google/1EwGScdmrC1dcwMR8');
       expect(bookingFrame).toHaveAttribute('loading', 'lazy');
@@ -120,7 +120,7 @@ describe('Performance Optimization for Local Users', () => {
       const contactLink = screen.getByRole('link', { name: 'Contact' });
       expect(contactLink.className).toContain('min-h-[48px]');
 
-      const mobileCallLink = screen.getByRole('link', { name: /contact grovex tech & solutions llc/i });
+      const mobileCallLink = screen.getByRole('link', { name: /contact grovex/i });
       expect(mobileCallLink).toHaveAttribute('href', '/contact');
       expect(mobileCallLink.className).toContain('focus:ring-2');
     });
@@ -165,7 +165,7 @@ describe('Performance Optimization for Local Users', () => {
       render(<Header />);
 
       const logo = screen.getByRole('img', {
-        name: /grovex tech & solutions llc - comprehensive technology solutions company logo/i,
+        name: /grovex - comprehensive growth systems company logo/i,
       });
       expect(logo).toHaveAttribute('src', expect.stringContaining('/company_logo.avif'));
       expect(logo).toHaveAttribute('loading', 'eager');

@@ -101,7 +101,7 @@ export const STANDARD_IMAGE_SIZES = {
  */
 export const IMAGE_ALT_TEXT = {
   // Company branding
-  'company_logo.png': 'Grovex Tech & Solutions LLC - Comprehensive Technology Solutions Company Logo',
+  'company_logo.png': 'GroveX company logo',
   
   // Service icons
   'service-icon-dev.png': 'Software Development Services - Custom web and mobile applications icon',
@@ -114,9 +114,9 @@ export const IMAGE_ALT_TEXT = {
   
   // Feature icons
   'feature-icon-1.png': 'Technology feature icon representing advanced capabilities',
-  'feature-icon-custom.png': 'Custom Solutions - Tailored technology solutions for unique business needs',
+  'feature-icon-custom.png': 'Custom Solutions - Tailored growth systems for unique business needs',
   'feature-icon-experience.png': '10+ Years Experience - Proven track record in technology services',
-  'feature-icon-pricing.png': 'Competitive Pricing - Affordable technology solutions for all business sizes',
+  'feature-icon-pricing.png': 'Competitive Pricing - Affordable growth systems for all business sizes',
   'feature-icon-support.png': '24/7 Support - Round-the-clock technical support and assistance',
   
   // Portfolio images
@@ -128,14 +128,14 @@ export const IMAGE_ALT_TEXT = {
   'portfolio-saas.jpg': 'SaaS Product Development - Innovative software-as-a-service solution case study',
   
   // Favicon variations
-  'favicon-circle-16x16.png': 'Grovex Tech & Solutions LLC favicon - 16x16 circular logo',
-  'favicon-circle-32x32.png': 'Grovex Tech & Solutions LLC favicon - 32x32 circular logo',
-  'favicon-circle-48x48.png': 'Grovex Tech & Solutions LLC favicon - 48x48 circular logo',
-  'favicon-circle-192x192.png': 'Grovex Tech & Solutions LLC favicon - 192x192 circular logo for mobile',
-  'favicon-rounded-16x16.png': 'Grovex Tech & Solutions LLC favicon - 16x16 rounded logo',
-  'favicon-rounded-32x32.png': 'Grovex Tech & Solutions LLC favicon - 32x32 rounded logo',
-  'favicon-rounded-48x48.png': 'Grovex Tech & Solutions LLC favicon - 48x48 rounded logo',
-  'favicon-rounded-192x192.png': 'Grovex Tech & Solutions LLC favicon - 192x192 rounded logo for mobile',
+  'favicon-circle-16x16.png': 'GroveX favicon - 16x16 circular logo',
+  'favicon-circle-32x32.png': 'GroveX favicon - 32x32 circular logo',
+  'favicon-circle-48x48.png': 'GroveX favicon - 48x48 circular logo',
+  'favicon-circle-192x192.png': 'GroveX favicon - 192x192 circular logo for mobile',
+  'favicon-rounded-16x16.png': 'GroveX favicon - 16x16 rounded logo',
+  'favicon-rounded-32x32.png': 'GroveX favicon - 32x32 rounded logo',
+  'favicon-rounded-48x48.png': 'GroveX favicon - 48x48 rounded logo',
+  'favicon-rounded-192x192.png': 'GroveX favicon - 192x192 rounded logo for mobile',
   
   // SVG icons
   'file.svg': 'File document icon',

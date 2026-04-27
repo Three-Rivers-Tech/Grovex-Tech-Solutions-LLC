@@ -1,6 +1,6 @@
-# Grovex Tech & Solutions LLC Design System
+# GroveX Design System
 
-A comprehensive guide to the visual language, components, and patterns used throughout the Grovex Tech & Solutions LLC website.
+A comprehensive guide to the visual language, components, and patterns used throughout the GroveX website.
 
 ## 🎨 Design Philosophy
 

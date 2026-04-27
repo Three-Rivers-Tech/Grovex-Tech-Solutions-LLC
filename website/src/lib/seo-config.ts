@@ -3,52 +3,47 @@ import type { ServicesSeoConfig, ServiceSeoConfig } from "@/types/seo";
 
 // SEO configuration for all pages
 export const seoConfig: Record<string, PageMetadataConfig> = {
-  // Homepage
   home: {
-    title: "Computer Repair Turtle Creek PA | IT Services 15145 | Grovex Tech & Solutions LLC",
-    description: "Computer repair Turtle Creek PA 15145, IT services for Mon Valley small businesses, and web design for Monroeville area. Contact us for a consultation.",
+    title: "GroveX | Websites, Systems & Sustainable Growth in Turtle Creek",
+    description: "GroveX helps local businesses build sustainable growth foundations with websites, software, IT support, and practical marketing-ready systems in Turtle Creek and the Mon Valley.",
     keywords: [
-      "computer repair Turtle Creek PA",
-      "IT services Turtle Creek 15145", 
-      "web design Monroeville area",
-      "tech support Mon Valley",
-      "computer help Turtle Creek",
-      "small business IT Turtle Creek PA",
-      "website design Western Pennsylvania",
-      "home computer repair PA"
+      "local business growth Turtle Creek",
+      "website design Turtle Creek PA",
+      "Google Ads landing page setup",
+      "small business systems Mon Valley",
+      "software development Turtle Creek",
+      "IT support for local business",
+      "growth infrastructure Pennsylvania",
+      "creative storefront technology"
     ],
     canonical: "https://grovextech.com",
-    ogTitle: "Grovex Tech & Solutions LLC - Your Hometown Tech Partner in Turtle Creek PA",
-    ogDescription: "Computer repair, IT services, and web design for Turtle Creek PA 15145 and Mon Valley communities. Big-city expertise at small-town prices."
+    ogTitle: "GroveX | Build Sustainable Growth from Turtle Creek",
+    ogDescription: "Websites, software, IT support, and growth infrastructure for local businesses that want stronger systems and better momentum."
   },
-
-  // Services page
   services: {
-    title: "Local Tech Services Turtle Creek PA | Computer Repair & IT Support 15145",
-    description: "Local tech services in Turtle Creek PA 15145. Computer repair, IT support, website design for Mon Valley small businesses and families. Home visits available—contact us to schedule.",
+    title: "GroveX Services | Websites, Systems, IT Support & Growth Ops",
+    description: "Explore GroveX services for websites, software, IT support, operations cleanup, and practical growth infrastructure designed for local businesses and community-rooted brands.",
     keywords: [
-      "local tech services Turtle Creek PA",
-      "computer repair Turtle Creek 15145",
-      "IT support Mon Valley", 
-      "website design Monroeville area",
-      "small business IT Turtle Creek",
-      "home computer repair PA",
-      "tech support for seniors",
-      "local computer services"
+      "website design services Turtle Creek",
+      "local business systems",
+      "IT support Mon Valley",
+      "custom software for local business",
+      "operations support Pennsylvania",
+      "marketing-ready websites",
+      "small business automation",
+      "growth services Turtle Creek"
     ],
     canonical: "https://grovextech.com/services",
-    ogTitle: "Local Tech Services - Grovex Tech & Solutions LLC Turtle Creek PA",
-    ogDescription: "Computer repair, IT support, and website design services for Turtle Creek PA 15145 and Mon Valley communities."
+    ogTitle: "GroveX Services | Sustainable Growth Infrastructure",
+    ogDescription: "From websites to internal systems, GroveX helps local operators build a stronger foundation for growth."
   },
-
-  // Software Development service
   "software-development": {
-    title: "Custom Software Development - Web Apps, Mobile Apps & APIs",
-    description: "Professional custom software development services. We build web applications, mobile apps, APIs, and enterprise software solutions tailored to your business needs.",
+    title: "Custom Software Development for Sustainable Growth | GroveX",
+    description: "GroveX builds custom software, web apps, APIs, and internal tools that help local businesses reduce friction, scale operations, and support long-term growth.",
     keywords: [
       "custom software development",
       "web application development",
-      "mobile app development", 
+      "mobile app development",
       "API development",
       "enterprise software",
       "full-stack development",
@@ -56,52 +51,46 @@ export const seoConfig: Record<string, PageMetadataConfig> = {
       "Node.js development"
     ],
     canonical: "https://grovextech.com/software-development",
-    ogTitle: "Custom Software Development Services - Grovex Tech & Solutions LLC",
-    ogDescription: "Expert software development services including web apps, mobile apps, and APIs. Built with modern technologies for scalable, reliable solutions."
+    ogTitle: "GroveX Software Development | Systems That Scale With You",
+    ogDescription: "Custom software and internal tools designed to support sustainable growth, cleaner operations, and better customer experiences."
   },
-
-  // About page
   about: {
-    title: "About Grovex Tech & Solutions LLC Turtle Creek PA | Local Tech Partners",
-    description: "Meet Christian Penrod, founder of Grovex Tech & Solutions LLC in Turtle Creek PA. Local tech partner serving Mon Valley with computer repair, IT support, and community involvement. Penn State cybersecurity graduate.",
+    title: "About GroveX | Turtle Creek Growth Studio",
+    description: "Meet Christian Penrod and learn how GroveX is growing from a local tech foundation into a sustainable growth studio rooted in Turtle Creek, community trust, and practical execution.",
     keywords: [
-      "about Grovex Tech & Solutions LLC Turtle Creek",
+      "about GroveX Turtle Creek",
       "Christian Penrod founder Turtle Creek PA",
-      "local tech company Mon Valley",
-      "Turtle Creek resident tech support",
+      "local growth studio Mon Valley",
+      "community-rooted business systems",
       "community involvement technology PA",
       "local business Turtle Creek 15145",
-      "Mon Valley tech partners",
-      "Turtle Creek computer repair owner"
+      "Mon Valley growth partner",
+      "Turtle Creek entrepreneur"
     ],
     canonical: "https://grovextech.com/about",
-    ogTitle: "About Grovex Tech & Solutions LLC - Your Local Turtle Creek PA Tech Partners",
-    ogDescription: "Meet Christian Penrod and learn how Grovex Tech & Solutions LLC became Turtle Creek's trusted local technology partner serving the Mon Valley community."
+    ogTitle: "About GroveX | A Local Growth Studio Taking Root",
+    ogDescription: "Learn how GroveX is combining technology, local business support, and long-term growth thinking from 124 Grant Street."
   },
-
-  // Contact page
   contact: {
-    title: "Contact Grovex Tech & Solutions LLC Turtle Creek PA | Connect With Our Team",
-    description: "Grovex Tech & Solutions LLC — Turtle Creek, PA for computer repair, IT support, and website design serving Mon Valley neighbors. Contact us to schedule local help.",
+    title: "Contact GroveX | Start a Growth Conversation",
+    description: "Talk with GroveX about websites, software, IT support, local business systems, or a stronger foundation for future Google Ads and customer acquisition.",
     keywords: [
-      "contact Grovex Tech & Solutions LLC Turtle Creek",
-      "computer repair contact PA",
+      "contact GroveX Turtle Creek",
+      "website consultation Pennsylvania",
       "IT support Turtle Creek contact",
-      "tech help Mon Valley",
-      "local computer services contact",
-      "Turtle Creek tech support contact",
-      "schedule computer repair PA",
-      "connect with Grovex Tech & Solutions LLC"
+      "growth systems consultation",
+      "local business services contact",
+      "Turtle Creek business growth contact",
+      "Google Ads landing page help",
+      "connect with GroveX"
     ],
     canonical: "https://grovextech.com/contact",
-    ogTitle: "Contact Grovex Tech & Solutions LLC - Turtle Creek PA",
-    ogDescription: "Contact Grovex Tech & Solutions LLC in Turtle Creek PA for computer repair, IT support, and website design. Send us a message or schedule online."
+    ogTitle: "Contact GroveX | Build the Next Stage of Growth",
+    ogDescription: "Reach out to GroveX to map out websites, software, support systems, and practical growth infrastructure for your business."
   },
-
-  // Community Involvement page
   "community-involvement": {
     title: "Community Involvement Turtle Creek PA | Local Partnerships & Events",
-    description: "Grovex Tech & Solutions LLC's community involvement in Turtle Creek PA. Local partnerships, Memorial Day parade sponsorship, senior tech workshops, and Mon Valley business support.",
+    description: "See how GroveX invests in Turtle Creek through local partnerships, education, shared-space energy, and support for community-rooted business growth.",
     keywords: [
       "community involvement Turtle Creek PA",
       "local partnerships Mon Valley",
@@ -110,35 +99,32 @@ export const seoConfig: Record<string, PageMetadataConfig> = {
       "community events Turtle Creek",
       "local business support Mon Valley",
       "Turtle Creek Senior Center workshops",
-      "community education technology"
+      "shared storefront vision"
     ],
     canonical: "https://grovextech.com/community-involvement",
-    ogTitle: "Community Involvement - Grovex Tech & Solutions LLC Turtle Creek PA",
-    ogDescription: "Learn about Grovex Tech & Solutions LLC's commitment to Turtle Creek through local partnerships, event sponsorships, and community education programs."
+    ogTitle: "Community Involvement | GroveX in Turtle Creek",
+    ogDescription: "Learn how GroveX supports local momentum through partnerships, workshops, and a stronger shared-space vision at 124 Grant Street."
   },
-
-  // Portfolio page
   portfolio: {
-    title: "Our Work - Portfolio of Successful Technology Projects",
-    description: "Explore Grovex Tech & Solutions LLC's portfolio of successful projects. See real examples of our software development, IT consulting, and technology solutions in action.",
+    title: "Our Work | GroveX Growth Systems & Client Results",
+    description: "Explore GroveX work across websites, software, IT support, and practical systems that help local businesses look sharper, operate better, and grow with confidence.",
     keywords: [
       "portfolio",
       "case studies",
       "successful projects",
       "client work",
-      "technology solutions",
+      "growth systems",
       "software projects",
-      "IT implementations"
+      "IT implementations",
+      "marketing-ready websites"
     ],
     canonical: "https://grovextech.com/portfolio",
-    ogTitle: "Our Portfolio - Grovex Tech & Solutions LLC Success Stories",
-    ogDescription: "Discover our successful technology projects and see how we've helped businesses achieve their goals."
+    ogTitle: "GroveX Portfolio | Growth Foundations in Action",
+    ogDescription: "See how GroveX turns local business needs into stronger websites, clearer systems, and sustainable growth momentum."
   },
-
-  // IT Consulting service
   "it-consulting": {
-    title: "IT Consulting Services - Infrastructure, Cloud Migration & Security",
-    description: "Expert IT consulting services including infrastructure assessment, cloud migration, cybersecurity consulting, and technology strategy planning for businesses of all sizes.",
+    title: "IT Consulting & Business Systems Strategy | GroveX",
+    description: "GroveX helps businesses audit infrastructure, clean up operations, strengthen security, and build dependable systems that support sustainable growth.",
     keywords: [
       "IT consulting",
       "infrastructure assessment",
@@ -149,14 +135,12 @@ export const seoConfig: Record<string, PageMetadataConfig> = {
       "business technology consulting"
     ],
     canonical: "https://grovextech.com/services/it-consulting",
-    ogTitle: "IT Consulting Services - Grovex Tech & Solutions LLC",
-    ogDescription: "Professional IT consulting services to optimize your technology infrastructure and drive business growth."
+    ogTitle: "GroveX IT Consulting | Stronger Systems for Growth",
+    ogDescription: "Infrastructure, security, and technology planning for businesses that need dependable operations behind the scenes."
   },
-
-  // SaaS Products service
   "saas-products": {
-    title: "SaaS Products - Innovative Business Software Solutions",
-    description: "Discover our innovative SaaS products designed to streamline business operations. Flexible pricing, reliable performance, and dedicated support for growing businesses.",
+    title: "Software Products & Automation Tools | GroveX",
+    description: "Explore GroveX software products and automation tools built to simplify operations, support customer growth, and create repeatable momentum for small businesses.",
     keywords: [
       "SaaS products",
       "business software",
@@ -167,36 +151,32 @@ export const seoConfig: Record<string, PageMetadataConfig> = {
       "enterprise SaaS"
     ],
     canonical: "https://grovextech.com/services/saas-products",
-    ogTitle: "SaaS Products - Grovex Tech & Solutions LLC",
-    ogDescription: "Innovative SaaS solutions to automate and optimize your business processes with flexible pricing and reliable support."
+    ogTitle: "GroveX Software Products | Growth Tools That Compound",
+    ogDescription: "Automation, reporting, and workflow tools that help growing businesses operate with more clarity and less friction."
   },
-
-  // Computer Repair service
   "computer-repair": {
-    title: "Computer Repair Turtle Creek PA 15145 | Home Visits Available",
-    description: "Computer repair Turtle Creek PA 15145. Virus removal, hardware fixes, slow computer repair. Home visits available for Turtle Creek, Monroeville, Mon Valley residents. Contact us to arrange service.",
+    title: "Repair & Business Device Support in Turtle Creek | GroveX",
+    description: "GroveX offers selective repair and troubleshooting support for business devices, office tech, and local critical issues in Turtle Creek and the Mon Valley—without making consumer repair the core brand identity.",
     keywords: [
+      "business device repair Turtle Creek",
+      "office tech support Mon Valley",
       "computer repair Turtle Creek PA 15145",
-      "virus removal Turtle Creek",
-      "slow computer repair PA",
-      "home computer repair visits",
       "laptop repair Monroeville area",
-      "PC repair Mon Valley",
-      "computer help seniors Turtle Creek",
-      "local computer repair PA"
+      "network troubleshooting Pennsylvania",
+      "small business tech rescue",
+      "local repair support PA"
     ],
     canonical: "https://grovextech.com/services/computer-repair",
-    ogTitle: "Computer Repair Turtle Creek PA - Grovex Tech & Solutions LLC", 
-    ogDescription: "Professional computer repair in Turtle Creek PA 15145. Home visits available for virus removal, hardware fixes, and system optimization."
+    ogTitle: "GroveX Repair & Support | Business Continuity When Tech Breaks",
+    ogDescription: "Selective repair, troubleshooting, and device support for small businesses and local critical issues across Turtle Creek and nearby communities."
   }
 };
 
-// Service-specific SEO configurations
 export const servicesSeoConfig: ServicesSeoConfig = {
   "software-development": {
     features: [
       "Custom Web Applications",
-      "Mobile App Development", 
+      "Mobile App Development",
       "API Development & Integration",
       "Database Design & Optimization",
       "Cloud-Native Solutions",
@@ -235,7 +215,7 @@ export const servicesSeoConfig: ServicesSeoConfig = {
   "computer-repair": {
     features: [
       "Hardware Diagnostics",
-      "Software Troubleshooting", 
+      "Software Troubleshooting",
       "Data Recovery Services",
       "System Optimization",
       "Virus Removal",
@@ -247,16 +227,10 @@ export const servicesSeoConfig: ServicesSeoConfig = {
   }
 };
 
-/**
- * Get SEO configuration for a specific page
- */
 export function getPageSeoConfig(pageKey: string): PageMetadataConfig | null {
   return seoConfig[pageKey] || null;
 }
 
-/**
- * Get service-specific SEO configuration
- */
 export function getServiceSeoConfig(serviceKey: string): ServiceSeoConfig | null {
-  return servicesSeoConfig[serviceKey as keyof typeof servicesSeoConfig] || null;
+  return servicesSeoConfig[serviceKey] || null;
 }

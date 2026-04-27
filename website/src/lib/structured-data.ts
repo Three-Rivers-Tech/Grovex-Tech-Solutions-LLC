@@ -228,7 +228,7 @@ export function generateLocalBusinessSchema(): LocalBusinessSchema & {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: businessInfo.name,
-    description: "Your hometown tech partner in Turtle Creek, PA offering computer repair, website design, and IT support with big-city expertise at small-town prices.",
+    description: "A growth-minded local studio in Turtle Creek, PA offering websites, software, IT support, and practical business systems for sustainable local growth.",
     image: `${siteConfig.url}${siteConfig.ogImage}`,
     telephone: businessInfo.phone,
     email: businessInfo.email,
@@ -282,30 +282,30 @@ export function generateLocalBusinessSchema(): LocalBusinessSchema & {
     },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Grovex Tech & Solutions LLC Services",
+      name: "GroveX Services",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Computer Repair Turtle Creek PA",
-            description: "Professional computer repair services including virus removal, hardware diagnostics, and system optimization for Turtle Creek residents."
+            name: "Growth-Ready Tech Support",
+            description: "Practical support for websites, devices, infrastructure, and day-to-day systems that keep local businesses moving."
           }
         },
         {
           "@type": "Offer", 
           itemOffered: {
             "@type": "Service",
-            name: "Website Design Monroeville Area",
-            description: "Affordable website design and development services for small businesses in Monroeville and surrounding Mon Valley communities."
+            name: "Website Design & Landing Pages",
+            description: "High-trust websites and landing pages designed to convert local attention into real conversations and future ad-ready growth."
           }
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service", 
-            name: "IT Support Mon Valley",
-            description: "Comprehensive IT support services for small businesses and home users throughout the Mon Valley region."
+            name: "Operations & IT Support",
+            description: "Dependable IT support, cleanup, and operations help for local businesses throughout the Mon Valley region."
           }
         }
       ]
@@ -441,7 +441,7 @@ export function generateSoftwareDevelopmentSchema(): ServiceSchema {
 export function generateITConsultingSchema(): ServiceSchema {
   return generateServiceSchema(
     "IT Consulting Services",
-    "Expert IT consulting services including infrastructure assessment, cloud migration, cybersecurity consulting, and technology strategy planning.",
+    "Expert IT consulting services including infrastructure assessment, operational cleanup, cybersecurity consulting, and technology strategy planning.",
     "IT Consulting",
     [
       {
@@ -469,7 +469,7 @@ export function generateITConsultingSchema(): ServiceSchema {
 export function generateSaaSProductsSchema(): ServiceSchema {
   return generateServiceSchema(
     "SaaS Products",
-    "Innovative Software-as-a-Service products designed to streamline business operations with flexible pricing and reliable performance.",
+    "Software products and automations designed to streamline operations, improve visibility, and support repeatable business growth.",
     "SaaS Products",
     [
       {
@@ -568,7 +568,7 @@ export function generatePageStructuredData(
     case "home":
       schemas.push(generateLocalBusinessSchema());
       schemas.push(generateWebPageSchema(
-        "Grovex Tech & Solutions LLC - Simple Technology Solutions That Work",
+        "GroveX - Growth Infrastructure That Takes Root",
         siteConfig.description,
         siteConfig.url,
         [{ name: "Home", url: siteConfig.url }]
@@ -579,7 +579,7 @@ export function generatePageStructuredData(
       schemas.push(...generateAllServiceSchemas());
       schemas.push(generateWebPageSchema(
         "Our Technology Services",
-        "Comprehensive technology services including software development, IT consulting, SaaS products, and computer repair.",
+        "Websites, software, support systems, and practical growth infrastructure for local businesses.",
         `${siteConfig.url}/services`,
         [
           { name: "Home", url: siteConfig.url },
